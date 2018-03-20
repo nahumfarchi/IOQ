@@ -77,10 +77,10 @@ function [ffield, thetas, local_frames, frame_diffs] = connection_to_nrosy(...
         FF_to_connection(fi, fj) = connection(eid);
         FF_to_connection(fj, fi) = -connection(eid);
         
-        %FF_to_frame_diff(fi, fj) = -frame_diffs(eid); -
-        %FF_to_frame_diff(fj, fi) = frame_diffs(eid); +
-        %FF_to_connection(fi, fj) = -connection(eid); -
-        %FF_to_connection(fj, fi) = connection(eid); +
+        %FF_to_frame_diff(fi, fj) = -frame_diffs(eid);
+        %FF_to_frame_diff(fj, fi) = frame_diffs(eid);
+        %FF_to_connection(fi, fj) = -connection(eid);
+        %FF_to_connection(fj, fi) = connection(eid);
         
         %FF_to_frame_diff(fi, fj) = frame_diffs(eid); +
         %FF_to_frame_diff(fj, fi) = -frame_diffs(eid); -

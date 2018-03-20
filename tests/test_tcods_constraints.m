@@ -3,7 +3,7 @@ USE_GPU = false;
 fp = '../data/round_cuber.off';
 m = Mesh(fp);
 V = m.V; F = m.F; nv = m.nV; ne = m.nE; nf = m.nF;
-CONSTRAINTS = [1, 0; 50, pi; 100, 0.1];
+CONSTRAINTS = [1, 0; 50, 0.1; 100, 0.2];
 PLOT_PROPS = {'FaceColor', 'w', 'PlotField', true, 'Constraints', CONSTRAINTS};
 
 %% run IOQ
@@ -35,8 +35,9 @@ theta = res_tc.ffield_angles;
 for i = 2:size(CONSTRAINTS, 1)
     fid = CONSTRAINTS(i, 1);
     t = CONSTRAINTS(i, 2);
-    assert(norm(theta(fid) - (t + pi/2 * gamma(i-1))) < 1e-10)
+    %assert(norm(theta(fid) - (t + pi/2 * gamma(i-1))) < 1e-10)
     %fprintf('theta(%d) = %g\nt + pi/2*gamma(%d)=%g\n', fid, theta(fid), i-1, t+pi/2*gamma(i-1));
+    check_norm('theta(fid)', 't-pi/2*gamma(i-1)');
 end
 
 disp(res_tc.miq_energy)

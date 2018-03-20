@@ -227,6 +227,7 @@ function [alpha, beta, connection, stats, out] = IOQ(verts, faces, varargin)
     if ~isempty(opt.Constraints)
         constrained_faces = opt.Constraints(:, 1);
         constraint_thetas = opt.Constraints(:, 2);
+        nc = length(constrained_faces);
         f0 = opt.Constraints(1, 1); theta0 = opt.Constraints(1, 2);
         %frame1 = local_frames(f0, :); frame2 = local_frames(f0+nf);
         %gvec = cos(theta0)*frame1 + sin(theta0)*frame2;
@@ -238,6 +239,7 @@ function [alpha, beta, connection, stats, out] = IOQ(verts, faces, varargin)
             c = inverse( R' * d1' ) * (pi/2 * gamma - gamma_g - R'*d0*a - R'*B*b );
         else
             gamma = round( 2/pi * ( gamma_g + R'*d0*a ) );
+            %gamma = zeros(nc - 1, 1);
             %c = (R' * d1') \ (pi/2 * gamma - gamma_g - R'*d0*a );
             c = lsqlin(d1', ...
                 zeros(ne, 1), [], [], R'*d1', (pi/2) * gamma - gamma_g - R'*d0*a, [], []);
