@@ -1,0 +1,151 @@
+% 3x3 grid
+%   (1,pi/4) -> (2,pi/4)   -> (3,pi/4)
+%       |           |           |
+%   (4,pi/4) -> (5,-5pi/6) -> (6,pi/4)
+%       |           |           |
+%   (7,pi/4) -> (8,pi/4)   -> (9,pi/4)
+%
+% Solution should be (with N=1):
+%   n_5 = 1
+%   all other variables = 0
+%
+% See scripts\PI_grid_3x3_example.PNG
+
+
+%%%%%%%%%
+% Setup %
+%%%%%%%%%
+N = 1; % Field degree
+
+%F = [1, 4, 5, 2;
+%     2, 5, 6, 3;
+%     4, 7, 8, 5;
+%     5, 8, 9, 6];
+F = [1, 4, 5;
+     1, 5, 2;
+     2, 5, 6;
+     2, 6, 3;
+     4, 7, 8;
+     4, 8, 5;
+     5, 8, 9;
+     5, 9, 6];
+V = [0, 0, 0;
+     0, 1, 0;
+     0, 2, 0;
+     1, 0, 0;
+     1, 1, 0;
+     1, 2, 0;
+     2, 0, 0;
+     2, 1, 0;
+     2, 2, 0];
+E = [1, 2;
+     1, 4;
+     1, 5;
+     2, 3;
+     2, 5;
+     2, 6;
+     3, 6;
+     4, 5;
+     4, 7;
+     4, 8;
+     5, 6;
+     5, 8;
+     5, 9;
+     6, 9;
+     7, 8;
+     8, 9];
+nF = size(F, 1);
+nV = size(V, 1);
+nE = size(E, 1);
+
+wrapped = (pi/4)*ones(nV, 1);
+wrapped(5) = -5*pi/6;
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Edgelist phase unwrapping %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[unwrapped, n, P, Q] = unwrap_phases_grid(V, E, wrapped, N);
+assert(n(5)-1 < 1e-8)
+assert(~any(n(1:4) > 1e-8))
+assert(~any(n(6:end) > 1e-8))
+
+
+%%%%%%%%%%%%%%%%%%
+% Costantini DEC %
+%%%%%%%%%%%%%%%%%%
+
+% Edge orientation is (i,j), i<j
+% Face orientation is CCW
+m = Mesh(V, F, E);
+
+[d_0, d_1] = get_exterior_derivatives(m);
+    
+wrapped_tilde = d_0*wrapped;
+
+% find integers such that wrapped_tilde \in [-pi,pi)
+tmp = (wrapped_tilde+sign(wrapped_tilde)*pi) / (2*pi);
+n_tilde = zeros(size(tmp));
+n_tilde(tmp>0) = -floor(tmp(tmp>0));
+n_tilde(tmp<0) = -ceil (tmp(tmp<0));
+
+wrapped_tilde = wrapped_tilde + 2*pi*n_tilde;
+assert(~(any(wrapped_tilde < -pi | wrapped_tilde > pi)))
+
+% Solve min |R|_1
+% s.t.  d_1(R) = -d_1*n_tilde
+%       R is integer
+cost = ones(2*nE, 1);
+lb = zeros(2*nE, 1);
+ub = 50*ones(2*nE, 1);
+A = [d_1, -d_1]; % R = x^+ - x^-
+b = -d_1*n_tilde;
+[x, fval, exitflag] = linprog(cost, [], [], A, b, lb, ub);
+
+
+unwrapped_grad = wrapped_tilde; % + x... (zero in this example);
+unwrapped_costantini = zeros(size(wrapped));
+unwrapped_costantini(1) = wrapped(1);
+for e = 1:nE
+    v1 = E(e, 1);
+    v2 = E(e, 2);
+    unwrapped_costantini(v2) = unwrapped_costantini(v1) + unwrapped_grad(e);
+end
+assert(norm(unwrapped-unwrapped_costantini) < 1e-8)
+
+
+h = unwrap_phases_DEC(m, wrapped, wrapped(1));
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% cost = ones(nE, 1);
+% ub = 50*ones(nE, 1);
+% lb = -50*ones(nE, 1);
+% A = d_1;
+% b = -d_1*n_tilde;
+% %[x, fval, exitflag] = linprog(cost, [], [], A, b, lb, ub);
+% [R, fval, exitflag] = intlinprog(cost, 1:nE, [], [], A, b, lb, ub);
+
+
+% d_11 = zeros(nF, nE);
+% for f = 1:nF
+%     f_verts = F(f, :);
+%     n_verts = length(f_verts);
+%     for i = 1:n_verts
+%         v1 = f_verts(i);
+%         v2 = f_verts(1+mod(i, n_verts));
+%         [C, IA, IB] = intersect(E, [v1, v2], 'rows');
+%         if ~isempty(C)
+%             d_11(f, IA) = 1;
+%         else
+%             [C, IA, IB] = intersect(E, [v2, v1], 'rows');
+%             d_11(f, IA) = -1;
+%         end
+%     end
+% end

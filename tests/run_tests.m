@@ -1,0 +1,3 @@
+test_IOQ_gpu_cpu_energy;
+test_IOQ_gpu_cpu_timing;
+test_block_inv;
