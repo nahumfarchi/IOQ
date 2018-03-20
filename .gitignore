@@ -21,4 +21,4 @@
 *.sublime-workspace
 *.gif
 *.pdb
-/libigl/*.tlog
+libigl

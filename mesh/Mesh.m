@@ -1756,6 +1756,7 @@ classdef Mesh < matlab.mixin.Copyable
             addOptional(p, 'MarkerSize', 80);
             addOptional(p, 'Colormap', []);
             addOptional(p, 'Camera', []);
+            addOptional(p, 'Constraints', []);
             
             parse(p, varargin{:});
             
@@ -1807,6 +1808,11 @@ classdef Mesh < matlab.mixin.Copyable
                         'AutoScale', 'on', ...
                         'AutoScaleFactor', scale)
                 end
+            end
+            
+            if ~isempty(p.Results.Constraints)
+                constraints = p.Results.Constraints;
+                draw_constraints(obj, constraints(:, 1), constraints(:, 2:end));
             end
 
             patch('faces', obj.F, ...
