@@ -19,3 +19,5 @@
 *.dylib
 *.off
 *.sublime-workspace
+*.gif
+*.pdb
