@@ -1,0 +1,33 @@
+*************************************************
+*** experiment_name : bunnyBotsch_multires_02 ***
+*************************************************
+Mesh: ..\..\..\data\multires\multires\bunnyBotsch_multires\mesh_1.off
+**************
+*** 1 / 90 ***
+**************
+	Experiment: Mixed integer quadrangulation
+Saving .\results\bunnyBotsch_multires_02\ffields\mesh_1_MIQ.ffield...
+Saving .\results\bunnyBotsch_multires_02\nrosy\mesh_1_MIQ.rosy...
+**************
+*** 2 / 90 ***
+**************
+	Experiment: Globally optimal direction fields
+Saving .\results\bunnyBotsch_multires_02\ffields\mesh_1_GO.ffield...
+Saving .\results\bunnyBotsch_multires_02\nrosy\mesh_1_GO.rosy...
+**************
+*** 3 / 90 ***
+**************
+	Experiment: IOQ with connectivity laplacian
+fp : ..\..\..\data\multires\multires\bunnyBotsch_multires\mesh_1.off
+nv : 55684
+Loading Lp from D:\nahum\laplacian_pinvs\mesh_1_Lp_conn.mat...Trying gpu IOQ...
+Saving .\results\bunnyBotsch_multires_02\ffields\mesh_1_IOQ_conn_1a.ffield...
+Saving .\results\bunnyBotsch_multires_02\nrosy\mesh_1_IOQ_conn_1a.rosy...
+**************
+*** 4 / 90 ***
+**************
+	Experiment: JL IOQ with eps=0.3, conn lap
+fp : ..\..\..\data\multires\multires\bunnyBotsch_multires\mesh_1.off
+nv : 55684
+Trying gpu IOQ...
+IOQ failed with GPU, trying without...

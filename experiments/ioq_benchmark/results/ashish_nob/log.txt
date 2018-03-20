@@ -1,0 +1,5203 @@
+************************************
+*** experiment_name : ashish_nob ***
+************************************
+Mesh: ..\..\..\data\ashish_nob\armadillo.off
+***************
+*** 1 / 940 ***
+***************
+	Experiment: MIQ
+	Skipping...
+***************
+*** 2 / 940 ***
+***************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+***************
+*** 3 / 940 ***
+***************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+***************
+*** 4 / 940 ***
+***************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+***************
+*** 5 / 940 ***
+***************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+***************
+*** 6 / 940 ***
+***************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+***************
+*** 7 / 940 ***
+***************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+***************
+*** 8 / 940 ***
+***************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\armadillo.off
+nv : 21582
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\armadillo_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\armadillo_JL_IOQ_eps0.5.rosy...
+***************
+*** 9 / 940 ***
+***************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+****************
+*** 10 / 940 ***
+****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\armchair.off
+****************
+*** 11 / 940 ***
+****************
+	Experiment: MIQ
+	Skipping...
+****************
+*** 12 / 940 ***
+****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+****************
+*** 13 / 940 ***
+****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+****************
+*** 14 / 940 ***
+****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+****************
+*** 15 / 940 ***
+****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+****************
+*** 16 / 940 ***
+****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+****************
+*** 17 / 940 ***
+****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+****************
+*** 18 / 940 ***
+****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\armchair.off
+nv : 50002
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\armchair_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\armchair_JL_IOQ_eps0.5.rosy...
+****************
+*** 19 / 940 ***
+****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+****************
+*** 20 / 940 ***
+****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\bimba100K.off
+****************
+*** 21 / 940 ***
+****************
+	Experiment: MIQ
+	Skipping...
+****************
+*** 22 / 940 ***
+****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+****************
+*** 23 / 940 ***
+****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+****************
+*** 24 / 940 ***
+****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+****************
+*** 25 / 940 ***
+****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+****************
+*** 26 / 940 ***
+****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+****************
+*** 27 / 940 ***
+****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+****************
+*** 28 / 940 ***
+****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\bimba100K.off
+nv : 50002
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\bimba100K_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\bimba100K_JL_IOQ_eps0.5.rosy...
+****************
+*** 29 / 940 ***
+****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+****************
+*** 30 / 940 ***
+****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\blade.off
+****************
+*** 31 / 940 ***
+****************
+	Experiment: MIQ
+	Skipping...
+****************
+*** 32 / 940 ***
+****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+****************
+*** 33 / 940 ***
+****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+****************
+*** 34 / 940 ***
+****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+****************
+*** 35 / 940 ***
+****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+****************
+*** 36 / 940 ***
+****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+****************
+*** 37 / 940 ***
+****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+****************
+*** 38 / 940 ***
+****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\blade.off
+nv : 29275
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\blade_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\blade_JL_IOQ_eps0.5.rosy...
+****************
+*** 39 / 940 ***
+****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+****************
+*** 40 / 940 ***
+****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\block.off
+****************
+*** 41 / 940 ***
+****************
+	Experiment: MIQ
+	Skipping...
+****************
+*** 42 / 940 ***
+****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+****************
+*** 43 / 940 ***
+****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+****************
+*** 44 / 940 ***
+****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+****************
+*** 45 / 940 ***
+****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+****************
+*** 46 / 940 ***
+****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+****************
+*** 47 / 940 ***
+****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+****************
+*** 48 / 940 ***
+****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\block.off
+nv : 2132
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\block_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\block_JL_IOQ_eps0.5.rosy...
+****************
+*** 49 / 940 ***
+****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+****************
+*** 50 / 940 ***
+****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\botijo.off
+****************
+*** 51 / 940 ***
+****************
+	Experiment: MIQ
+	Skipping...
+****************
+*** 52 / 940 ***
+****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+****************
+*** 53 / 940 ***
+****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+****************
+*** 54 / 940 ***
+****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+****************
+*** 55 / 940 ***
+****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+****************
+*** 56 / 940 ***
+****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+****************
+*** 57 / 940 ***
+****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+****************
+*** 58 / 940 ***
+****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\botijo.off
+nv : 41158
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\botijo_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\botijo_JL_IOQ_eps0.5.rosy...
+****************
+*** 59 / 940 ***
+****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+****************
+*** 60 / 940 ***
+****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\bozbezbozzel100K.off
+****************
+*** 61 / 940 ***
+****************
+	Experiment: MIQ
+	Skipping...
+****************
+*** 62 / 940 ***
+****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+****************
+*** 63 / 940 ***
+****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+****************
+*** 64 / 940 ***
+****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+****************
+*** 65 / 940 ***
+****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+****************
+*** 66 / 940 ***
+****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+****************
+*** 67 / 940 ***
+****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+****************
+*** 68 / 940 ***
+****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\bozbezbozzel100K.off
+nv : 49992
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\bozbezbozzel100K_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\bozbezbozzel100K_JL_IOQ_eps0.5.rosy...
+****************
+*** 69 / 940 ***
+****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+****************
+*** 70 / 940 ***
+****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\bozbezbozzel50K.off
+****************
+*** 71 / 940 ***
+****************
+	Experiment: MIQ
+	Skipping...
+****************
+*** 72 / 940 ***
+****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+****************
+*** 73 / 940 ***
+****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+****************
+*** 74 / 940 ***
+****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+****************
+*** 75 / 940 ***
+****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+****************
+*** 76 / 940 ***
+****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+****************
+*** 77 / 940 ***
+****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+****************
+*** 78 / 940 ***
+****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\bozbezbozzel50K.off
+nv : 24992
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\bozbezbozzel50K_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\bozbezbozzel50K_JL_IOQ_eps0.5.rosy...
+****************
+*** 79 / 940 ***
+****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+****************
+*** 80 / 940 ***
+****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\brain100k.off
+****************
+*** 81 / 940 ***
+****************
+	Experiment: MIQ
+	Skipping...
+****************
+*** 82 / 940 ***
+****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+****************
+*** 83 / 940 ***
+****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+****************
+*** 84 / 940 ***
+****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+****************
+*** 85 / 940 ***
+****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+****************
+*** 86 / 940 ***
+****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+****************
+*** 87 / 940 ***
+****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+****************
+*** 88 / 940 ***
+****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\brain100k.off
+nv : 49888
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\brain100k_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\brain100k_JL_IOQ_eps0.5.rosy...
+****************
+*** 89 / 940 ***
+****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+****************
+*** 90 / 940 ***
+****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\bumpy_sphere.off
+****************
+*** 91 / 940 ***
+****************
+	Experiment: MIQ
+	Skipping...
+****************
+*** 92 / 940 ***
+****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+****************
+*** 93 / 940 ***
+****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+****************
+*** 94 / 940 ***
+****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+****************
+*** 95 / 940 ***
+****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+****************
+*** 96 / 940 ***
+****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+****************
+*** 97 / 940 ***
+****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+****************
+*** 98 / 940 ***
+****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\bumpy_sphere.off
+nv : 5724
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\bumpy_sphere_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\bumpy_sphere_JL_IOQ_eps0.5.rosy...
+****************
+*** 99 / 940 ***
+****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 100 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\bumpy_torus.off
+*****************
+*** 101 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 102 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 103 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 104 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 105 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 106 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 107 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 108 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\bumpy_torus.off
+nv : 16815
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\bumpy_torus_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\bumpy_torus_JL_IOQ_eps0.5.rosy...
+*****************
+*** 109 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 110 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\bunnyBotsch.off
+*****************
+*** 111 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 112 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 113 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 114 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 115 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 116 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 117 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 118 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\bunnyBotsch.off
+nv : 55684
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\bunnyBotsch_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\bunnyBotsch_JL_IOQ_eps0.5.rosy...
+*****************
+*** 119 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 120 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\buste.off
+*****************
+*** 121 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 122 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 123 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 124 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 125 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 126 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 127 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 128 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\buste.off
+nv : 50002
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\buste_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\buste_JL_IOQ_eps0.5.rosy...
+*****************
+*** 129 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 130 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\camel.off
+*****************
+*** 131 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 132 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 133 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 134 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 135 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 136 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 137 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 138 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\camel.off
+nv : 34546
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\camel_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\camel_JL_IOQ_eps0.5.rosy...
+*****************
+*** 139 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 140 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\camille_hand100K.off
+*****************
+*** 141 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 142 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 143 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 144 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 145 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 146 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 147 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 148 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\camille_hand100K.off
+nv : 50002
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\camille_hand100K_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\camille_hand100K_JL_IOQ_eps0.5.rosy...
+*****************
+*** 149 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 150 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\carter100K.off
+*****************
+*** 151 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 152 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 153 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 154 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 155 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 156 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 157 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 158 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\carter100K.off
+nv : 49988
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\carter100K_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\carter100K_JL_IOQ_eps0.5.rosy...
+*****************
+*** 159 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 160 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\casting_refined.off
+*****************
+*** 161 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 162 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 163 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 164 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 165 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 166 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 167 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 168 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\casting_refined.off
+nv : 18410
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\casting_refined_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\casting_refined_JL_IOQ_eps0.5.rosy...
+*****************
+*** 169 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 170 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\chair.off
+*****************
+*** 171 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 172 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 173 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 174 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 175 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 176 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 177 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 178 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\chair.off
+nv : 49988
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\chair_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\chair_JL_IOQ_eps0.5.rosy...
+*****************
+*** 179 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 180 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\chair100K.off
+*****************
+*** 181 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 182 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 183 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 184 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 185 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 186 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 187 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 188 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\chair100K.off
+nv : 49988
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\chair100K_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\chair100K_JL_IOQ_eps0.5.rosy...
+*****************
+*** 189 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 190 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\cow2.off
+*****************
+*** 191 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 192 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 193 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 194 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 195 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 196 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 197 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 198 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\cow2.off
+nv : 4315
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\cow2_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\cow2_JL_IOQ_eps0.5.rosy...
+*****************
+*** 199 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 200 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\cup.off
+*****************
+*** 201 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 202 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 203 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 204 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 205 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 206 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 207 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 208 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\cup.off
+nv : 5668
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\cup_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\cup_JL_IOQ_eps0.5.rosy...
+*****************
+*** 209 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 210 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\dancer2.off
+*****************
+*** 211 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 212 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 213 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 214 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 215 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 216 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 217 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 218 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\dancer2.off
+nv : 9146
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\dancer2_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\dancer2_JL_IOQ_eps0.5.rosy...
+*****************
+*** 219 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 220 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\dancer_25k.off
+*****************
+*** 221 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 222 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 223 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 224 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 225 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 226 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 227 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 228 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\dancer_25k.off
+nv : 24998
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\dancer_25k_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\dancer_25k_JL_IOQ_eps0.5.rosy...
+*****************
+*** 229 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 230 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\dancing_children100K.off
+*****************
+*** 231 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 232 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 233 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 234 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 235 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 236 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 237 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 238 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\dancing_children100K.off
+nv : 49986
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\dancing_children100K_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\dancing_children100K_JL_IOQ_eps0.5.rosy...
+*****************
+*** 239 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 240 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\david.off
+*****************
+*** 241 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 242 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 243 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 244 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 245 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 246 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 247 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 248 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\david.off
+nv : 25434
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\david_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\david_JL_IOQ_eps0.5.rosy...
+*****************
+*** 249 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 250 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\deformed_armadillo.off
+*****************
+*** 251 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 252 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 253 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 254 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 255 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 256 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 257 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 258 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\deformed_armadillo.off
+nv : 50002
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\deformed_armadillo_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\deformed_armadillo_JL_IOQ_eps0.5.rosy...
+*****************
+*** 259 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 260 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\dente.off
+*****************
+*** 261 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 262 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 263 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 264 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 265 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 266 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 267 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 268 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\dente.off
+nv : 9337
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\dente_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\dente_JL_IOQ_eps0.5.rosy...
+*****************
+*** 269 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 270 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\dilo.off
+*****************
+*** 271 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 272 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 273 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 274 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 275 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 276 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 277 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 278 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\dilo.off
+nv : 27174
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\dilo_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\dilo_JL_IOQ_eps0.5.rosy...
+*****************
+*** 279 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 280 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\dragonstand_recon100K.off
+*****************
+*** 281 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 282 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 283 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 284 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 285 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 286 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 287 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 288 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\dragonstand_recon100K.off
+nv : 52179
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\dragonstand_recon100K_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\dragonstand_recon100K_JL_IOQ_eps0.5.rosy...
+*****************
+*** 289 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 290 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\duck.off
+*****************
+*** 291 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 292 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 293 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 294 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 295 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 296 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 297 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 298 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\duck.off
+nv : 9640
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\duck_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\duck_JL_IOQ_eps0.5.rosy...
+*****************
+*** 299 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 300 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\eight.off
+*****************
+*** 301 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 302 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 303 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 304 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 305 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 306 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 307 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 308 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\eight.off
+nv : 766
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\eight_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\eight_JL_IOQ_eps0.5.rosy...
+*****************
+*** 309 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 310 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\elephant.off
+*****************
+*** 311 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 312 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 313 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 314 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 315 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 316 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 317 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 318 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\elephant.off
+nv : 24955
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\elephant_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\elephant_JL_IOQ_eps0.5.rosy...
+*****************
+*** 319 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 320 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\elk.off
+*****************
+*** 321 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 322 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 323 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 324 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 325 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 326 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 327 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 328 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\elk.off
+nv : 5194
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\elk_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\elk_JL_IOQ_eps0.5.rosy...
+*****************
+*** 329 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 330 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\eros100K.off
+*****************
+*** 331 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 332 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 333 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 334 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 335 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 336 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 337 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 338 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\eros100K.off
+nv : 50002
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\eros100K_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\eros100K_JL_IOQ_eps0.5.rosy...
+*****************
+*** 339 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 340 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\fandisk.off
+*****************
+*** 341 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 342 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 343 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 344 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 345 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 346 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 347 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 348 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\fandisk.off
+nv : 7229
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\fandisk_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\fandisk_JL_IOQ_eps0.5.rosy...
+*****************
+*** 349 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 350 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\femur.off
+*****************
+*** 351 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 352 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 353 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 354 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 355 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 356 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 357 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 358 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\femur.off
+nv : 3897
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\femur_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\femur_JL_IOQ_eps0.5.rosy...
+*****************
+*** 359 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 360 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\fertility_tri.off
+*****************
+*** 361 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 362 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 363 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 364 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 365 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 366 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 367 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 368 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\fertility_tri.off
+nv : 13971
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\fertility_tri_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\fertility_tri_JL_IOQ_eps0.5.rosy...
+*****************
+*** 369 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 370 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\filigree100k.off
+*****************
+*** 371 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 372 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 373 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 374 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 375 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 376 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 377 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 378 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\filigree100k.off
+nv : 49872
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\filigree100k_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\filigree100k_JL_IOQ_eps0.5.rosy...
+*****************
+*** 379 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 380 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\focal-octa.off
+*****************
+*** 381 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 382 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 383 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 384 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 385 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 386 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 387 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 388 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\focal-octa.off
+nv : 10080
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\focal-octa_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\focal-octa_JL_IOQ_eps0.5.rosy...
+*****************
+*** 389 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 390 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\gargoyle100K.off
+*****************
+*** 391 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 392 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 393 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 394 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 395 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 396 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 397 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 398 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\gargoyle100K.off
+nv : 50002
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\gargoyle100K_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\gargoyle100K_JL_IOQ_eps0.5.rosy...
+*****************
+*** 399 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 400 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\gearbox.off
+*****************
+*** 401 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 402 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 403 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 404 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 405 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 406 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 407 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 408 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\gearbox.off
+nv : 64149
+Trying gpu IOQ...
+IOQ failed with GPU, trying without...
+	Experiment failed. 
+	Stack: Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('not')" style="font-weight:bold"> ~ </a>
+Requested 64149x64149 (34.5GB) array exceeds maximum array size preference. Creation of arrays greater than this limit may take a long time and cause MATLAB to become unresponsive. See <a href="matlab: helpview([docroot '/matlab/helptargets.map'], 'matlab_env_workspace_prefs')">array size limit</a> or preference panel for more information.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Mesh/get.generator_cycles', 'C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\mesh\Mesh.m', 1031)" style="font-weight:bold">Mesh/get.generator_cycles</a> (<a href="matlab: opentoline('C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\mesh\Mesh.m',1031,0)">line 1031</a>)
+            Apnt = double(Ap & ~Apt);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Mesh/get.H', 'C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\mesh\Mesh.m', 1406)" style="font-weight:bold">Mesh/get.H</a> (<a href="matlab: opentoline('C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\mesh\Mesh.m',1406,0)">line 1406</a>)
+            cycles = self.generator_cycles();
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('IOQ_highgenus_gpu', 'C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\IOQ\IOQ_highgenus_gpu.m', 207)" style="font-weight:bold">IOQ_highgenus_gpu</a> (<a href="matlab: opentoline('C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\IOQ\IOQ_highgenus_gpu.m',207,0)">line 207</a>)
+        H = -mesh.H;
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ioq_wrapper', 'C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\experiments\ioq_benchmark\ioq_wrapper.m', 119)" style="font-weight:bold">ioq_wrapper</a> (<a href="matlab: opentoline('C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\experiments\ioq_benchmark\ioq_wrapper.m',119,0)">line 119</a>)
+        [alpha_p, beta_p, elapsed_ioq] = IOQ_highgenus_gpu(m.V, m.F, ...
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ioq_benchmark', 'C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\experiments\ioq_benchmark\ioq_benchmark.m', 204)" style="font-weight:bold">ioq_benchmark</a> (<a href="matlab: opentoline('C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\experiments\ioq_benchmark\ioq_benchmark.m',204,0)">line 204</a>)
+            res = feval(exp.func, fp, exp.args{:});                
+*****************
+*** 409 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 410 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\genus3.off
+*****************
+*** 411 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 412 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 413 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 414 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 415 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 416 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 417 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 418 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\genus3.off
+nv : 6652
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\genus3_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\genus3_JL_IOQ_eps0.5.rosy...
+*****************
+*** 419 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 420 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\grayloc.off
+*****************
+*** 421 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 422 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 423 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 424 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 425 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 426 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 427 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 428 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\grayloc.off
+nv : 34274
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\grayloc_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\grayloc_JL_IOQ_eps0.5.rosy...
+*****************
+*** 429 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 430 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\greek_sculpture.off
+*****************
+*** 431 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 432 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 433 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 434 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 435 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 436 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 437 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 438 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\greek_sculpture.off
+nv : 24994
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\greek_sculpture_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\greek_sculpture_JL_IOQ_eps0.5.rosy...
+*****************
+*** 439 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 440 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\helmet.off
+*****************
+*** 441 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 442 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 443 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 444 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 445 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 446 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 447 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 448 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\helmet.off
+nv : 496
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\helmet_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\helmet_JL_IOQ_eps0.5.rosy...
+*****************
+*** 449 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 450 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\heptoroid100k.off
+*****************
+*** 451 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 452 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 453 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 454 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 455 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 456 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 457 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 458 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\heptoroid100k.off
+nv : 49958
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\heptoroid100k_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\heptoroid100k_JL_IOQ_eps0.5.rosy...
+*****************
+*** 459 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 460 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\holes3.off
+*****************
+*** 461 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 462 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 463 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 464 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 465 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 466 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 467 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 468 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\holes3.off
+nv : 5884
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\holes3_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\holes3_JL_IOQ_eps0.5.rosy...
+*****************
+*** 469 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 470 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\homer.off
+*****************
+*** 471 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 472 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 473 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 474 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 475 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 476 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 477 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 478 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\homer.off
+nv : 5103
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\homer_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\homer_JL_IOQ_eps0.5.rosy...
+*****************
+*** 479 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 480 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\horse.off
+*****************
+*** 481 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 482 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 483 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 484 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 485 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 486 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 487 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 488 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\horse.off
+nv : 19851
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\horse_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\horse_JL_IOQ_eps0.5.rosy...
+*****************
+*** 489 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 490 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\igea100k.off
+*****************
+*** 491 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 492 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 493 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 494 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 495 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 496 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 497 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 498 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\igea100k.off
+nv : 50002
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\igea100k_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\igea100k_JL_IOQ_eps0.5.rosy...
+*****************
+*** 499 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 500 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\isidore_horse.off
+*****************
+*** 501 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 502 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 503 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 504 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 505 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 506 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 507 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 508 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\isidore_horse.off
+nv : 50002
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\isidore_horse_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\isidore_horse_JL_IOQ_eps0.5.rosy...
+*****************
+*** 509 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 510 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\joint.off
+*****************
+*** 511 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 512 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 513 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 514 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 515 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 516 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 517 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 518 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\joint.off
+nv : 20902
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\joint_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\joint_JL_IOQ_eps0.5.rosy...
+*****************
+*** 519 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 520 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\kitten100K.off
+*****************
+*** 521 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 522 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 523 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 524 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 525 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 526 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 527 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 528 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\kitten100K.off
+nv : 50000
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\kitten100K_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\kitten100K_JL_IOQ_eps0.5.rosy...
+*****************
+*** 529 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 530 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\knot1.off
+*****************
+*** 531 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 532 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 533 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 534 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 535 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 536 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 537 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 538 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\knot1.off
+nv : 240
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\knot1_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\knot1_JL_IOQ_eps0.5.rosy...
+*****************
+*** 539 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 540 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\knot100K.off
+*****************
+*** 541 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 542 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 543 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 544 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 545 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 546 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 547 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 548 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\knot100K.off
+nv : 50000
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\knot100K_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\knot100K_JL_IOQ_eps0.5.rosy...
+*****************
+*** 549 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 550 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\lion_recon_50K.off
+*****************
+*** 551 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 552 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 553 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 554 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 555 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 556 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 557 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 558 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\lion_recon_50K.off
+nv : 27899
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\lion_recon_50K_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\lion_recon_50K_JL_IOQ_eps0.5.rosy...
+*****************
+*** 559 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 560 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\lucy100k.off
+*****************
+*** 561 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 562 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 563 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 564 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 565 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 566 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 567 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 568 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\lucy100k.off
+nv : 50002
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\lucy100k_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\lucy100k_JL_IOQ_eps0.5.rosy...
+*****************
+*** 569 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 570 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\magalie_hand100K.off
+*****************
+*** 571 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 572 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 573 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 574 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 575 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 576 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 577 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 578 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\magalie_hand100K.off
+nv : 50002
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\magalie_hand100K_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\magalie_hand100K_JL_IOQ_eps0.5.rosy...
+*****************
+*** 579 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 580 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\master_cylinder100K.off
+*****************
+*** 581 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 582 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 583 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 584 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 585 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 586 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 587 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 588 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\master_cylinder100K.off
+nv : 49996
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\master_cylinder100K_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\master_cylinder100K_JL_IOQ_eps0.5.rosy...
+*****************
+*** 589 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 590 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\moai.off
+*****************
+*** 591 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 592 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 593 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 594 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 595 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 596 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 597 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 598 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\moai.off
+nv : 10002
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\moai_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\moai_JL_IOQ_eps0.5.rosy...
+*****************
+*** 599 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 600 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\mouse.off
+*****************
+*** 601 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 602 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 603 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 604 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 605 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 606 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 607 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 608 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\mouse.off
+nv : 14356
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\mouse_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\mouse_JL_IOQ_eps0.5.rosy...
+*****************
+*** 609 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 610 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\neptune0.off
+*****************
+*** 611 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 612 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 613 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 614 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 615 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 616 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 617 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 618 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\neptune0.off
+nv : 52511
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\neptune0_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\neptune0_JL_IOQ_eps0.5.rosy...
+*****************
+*** 619 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 620 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\oil_pump100K.off
+*****************
+*** 621 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 622 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 623 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 624 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 625 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 626 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 627 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 628 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\oil_pump100K.off
+nv : 49994
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\oil_pump100K_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\oil_pump100K_JL_IOQ_eps0.5.rosy...
+*****************
+*** 629 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 630 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\pear.off
+*****************
+*** 631 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 632 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 633 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 634 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 635 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 636 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 637 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 638 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\pear.off
+nv : 10754
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\pear_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\pear_JL_IOQ_eps0.5.rosy...
+*****************
+*** 639 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 640 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\pegaso.off
+*****************
+*** 641 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 642 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 643 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 644 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 645 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 646 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 647 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 648 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\pegaso.off
+nv : 15319
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\pegaso_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\pegaso_JL_IOQ_eps0.5.rosy...
+*****************
+*** 649 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 650 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\pensatore.off
+*****************
+*** 651 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 652 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 653 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 654 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 655 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 656 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 657 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 658 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\pensatore.off
+nv : 50002
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\pensatore_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\pensatore_JL_IOQ_eps0.5.rosy...
+*****************
+*** 659 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 660 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\pierrot100k.off
+*****************
+*** 661 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 662 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 663 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 664 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 665 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 666 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 667 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 668 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\pierrot100k.off
+nv : 49987
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\pierrot100k_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\pierrot100k_JL_IOQ_eps0.5.rosy...
+*****************
+*** 669 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 670 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\pulley100K.off
+*****************
+*** 671 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 672 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 673 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 674 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 675 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 676 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 677 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 678 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\pulley100K.off
+nv : 50000
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\pulley100K_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\pulley100K_JL_IOQ_eps0.5.rosy...
+*****************
+*** 679 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 680 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\ramses.off
+*****************
+*** 681 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 682 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 683 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 684 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 685 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 686 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 687 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 688 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\ramses.off
+nv : 50002
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\ramses_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\ramses_JL_IOQ_eps0.5.rosy...
+*****************
+*** 689 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 690 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\raptor50K.off
+*****************
+*** 691 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 692 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 693 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 694 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 695 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 696 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 697 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 698 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\raptor50K.off
+nv : 23269
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\raptor50K_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\raptor50K_JL_IOQ_eps0.5.rosy...
+*****************
+*** 699 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 700 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\red_circular_box100K.off
+*****************
+*** 701 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 702 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 703 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 704 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 705 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 706 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 707 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 708 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\red_circular_box100K.off
+nv : 50002
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\red_circular_box100K_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\red_circular_box100K_JL_IOQ_eps0.5.rosy...
+*****************
+*** 709 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 710 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\retinal.off
+*****************
+*** 711 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 712 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 713 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 714 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 715 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 716 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 717 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 718 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\retinal.off
+nv : 3643
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\retinal_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\retinal_JL_IOQ_eps0.5.rosy...
+*****************
+*** 719 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 720 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\rgb_dragon.off
+*****************
+*** 721 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 722 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 723 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 724 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 725 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 726 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 727 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 728 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\rgb_dragon.off
+nv : 52513
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\rgb_dragon_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\rgb_dragon_JL_IOQ_eps0.5.rosy...
+*****************
+*** 729 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 730 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\robocat_deci.off
+*****************
+*** 731 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 732 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 733 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 734 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 735 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 736 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 737 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 738 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\robocat_deci.off
+nv : 3756
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\robocat_deci_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\robocat_deci_JL_IOQ_eps0.5.rosy...
+*****************
+*** 739 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 740 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\rocker_arm.off
+*****************
+*** 741 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 742 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 743 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 744 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 745 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 746 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 747 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 748 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\rocker_arm.off
+nv : 10044
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\rocker_arm_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\rocker_arm_JL_IOQ_eps0.5.rosy...
+*****************
+*** 749 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 750 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\rolling_stage100K.off
+*****************
+*** 751 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 752 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 753 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 754 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 755 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 756 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 757 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 758 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\rolling_stage100K.off
+nv : 49988
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\rolling_stage100K_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\rolling_stage100K_JL_IOQ_eps0.5.rosy...
+*****************
+*** 759 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 760 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\santa.off
+*****************
+*** 761 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 762 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 763 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 764 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 765 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 766 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 767 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 768 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\santa.off
+nv : 75781
+Trying gpu IOQ...
+IOQ failed with GPU, trying without...
+	Experiment failed. 
+	Stack: Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plus')" style="font-weight:bold"> + </a>
+Requested 75781x75781 (42.8GB) array exceeds maximum array size preference. Creation of arrays greater than this limit may take a long time and cause MATLAB to become unresponsive. See <a href="matlab: helpview([docroot '/matlab/helptargets.map'], 'matlab_env_workspace_prefs')">array size limit</a> or preference panel for more information.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('IOQ_highgenus_gpu', 'C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\IOQ\IOQ_highgenus_gpu.m', 187)" style="font-weight:bold">IOQ_highgenus_gpu</a> (<a href="matlab: opentoline('C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\IOQ\IOQ_highgenus_gpu.m',187,0)">line 187</a>)
+            Lp = invChol_mex(full(L + 1/nv)) - 1/nv;
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ioq_wrapper', 'C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\experiments\ioq_benchmark\ioq_wrapper.m', 119)" style="font-weight:bold">ioq_wrapper</a> (<a href="matlab: opentoline('C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\experiments\ioq_benchmark\ioq_wrapper.m',119,0)">line 119</a>)
+        [alpha_p, beta_p, elapsed_ioq] = IOQ_highgenus_gpu(m.V, m.F, ...
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ioq_benchmark', 'C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\experiments\ioq_benchmark\ioq_benchmark.m', 204)" style="font-weight:bold">ioq_benchmark</a> (<a href="matlab: opentoline('C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\experiments\ioq_benchmark\ioq_benchmark.m',204,0)">line 204</a>)
+            res = feval(exp.func, fp, exp.args{:});                
+*****************
+*** 769 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 770 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\screwdriver.off
+*****************
+*** 771 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 772 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 773 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 774 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 775 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 776 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 777 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 778 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\screwdriver.off
+nv : 27152
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\screwdriver_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\screwdriver_JL_IOQ_eps0.5.rosy...
+*****************
+*** 779 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 780 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\sculpt.off
+*****************
+*** 781 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 782 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 783 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 784 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 785 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 786 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 787 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 788 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\sculpt.off
+nv : 3669
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\sculpt_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\sculpt_JL_IOQ_eps0.5.rosy...
+*****************
+*** 789 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 790 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\seahorse2_100K.off
+*****************
+*** 791 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 792 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 793 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 794 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 795 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 796 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 797 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 798 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\seahorse2_100K.off
+nv : 49986
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\seahorse2_100K_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\seahorse2_100K_JL_IOQ_eps0.5.rosy...
+*****************
+*** 799 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 800 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\sediapatch1_100K.off
+*****************
+*** 801 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 802 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 803 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 804 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 805 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 806 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 807 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 808 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\sediapatch1_100K.off
+nv : 49986
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\sediapatch1_100K_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\sediapatch1_100K_JL_IOQ_eps0.5.rosy...
+*****************
+*** 809 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 810 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\shark.off
+*****************
+*** 811 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 812 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 813 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 814 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 815 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 816 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 817 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 818 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\shark.off
+nv : 10054
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\shark_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\shark_JL_IOQ_eps0.5.rosy...
+*****************
+*** 819 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 820 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\sharp_sphere.off
+*****************
+*** 821 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 822 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 823 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 824 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 825 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 826 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 827 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 828 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\sharp_sphere.off
+nv : 10443
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\sharp_sphere_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\sharp_sphere_JL_IOQ_eps0.5.rosy...
+*****************
+*** 829 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 830 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\smooth-feature.off
+*****************
+*** 831 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 832 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 833 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 834 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 835 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 836 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 837 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 838 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\smooth-feature.off
+nv : 6177
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\smooth-feature_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\smooth-feature_JL_IOQ_eps0.5.rosy...
+*****************
+*** 839 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 840 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\thai_statue.off
+*****************
+*** 841 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 842 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 843 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 844 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 845 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 846 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 847 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 848 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\thai_statue.off
+nv : 39981
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\thai_statue_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\thai_statue_JL_IOQ_eps0.5.rosy...
+*****************
+*** 849 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 850 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\torso.off
+*****************
+*** 851 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 852 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 853 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 854 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 855 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 856 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 857 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 858 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\torso.off
+nv : 50002
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\torso_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\torso_JL_IOQ_eps0.5.rosy...
+*****************
+*** 859 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 860 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\trim-star.off
+*****************
+*** 861 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 862 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 863 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 864 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 865 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 866 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 867 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 868 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\trim-star.off
+nv : 5192
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\trim-star_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\trim-star_JL_IOQ_eps0.5.rosy...
+*****************
+*** 869 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 870 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\twirl.off
+*****************
+*** 871 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 872 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 873 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 874 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 875 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 876 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 877 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 878 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\twirl.off
+nv : 5201
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\twirl_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\twirl_JL_IOQ_eps0.5.rosy...
+*****************
+*** 879 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 880 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\uu-memento100k.off
+*****************
+*** 881 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 882 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 883 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 884 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 885 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 886 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 887 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 888 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\uu-memento100k.off
+nv : 49968
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\uu-memento100k_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\uu-memento100k_JL_IOQ_eps0.5.rosy...
+*****************
+*** 889 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 890 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\vase-lion100K.off
+*****************
+*** 891 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 892 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 893 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 894 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 895 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 896 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 897 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 898 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\vase-lion100K.off
+nv : 50002
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\vase-lion100K_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\vase-lion100K_JL_IOQ_eps0.5.rosy...
+*****************
+*** 899 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 900 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\vase100K.off
+*****************
+*** 901 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 902 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 903 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 904 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 905 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 906 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 907 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 908 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\vase100K.off
+nv : 50002
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\vase100K_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\vase100K_JL_IOQ_eps0.5.rosy...
+*****************
+*** 909 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 910 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\vh_skin.off
+*****************
+*** 911 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 912 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 913 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 914 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 915 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 916 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 917 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 918 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\vh_skin.off
+nv : 29095
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\vh_skin_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\vh_skin_JL_IOQ_eps0.5.rosy...
+*****************
+*** 919 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 920 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\woodenfish.off
+*****************
+*** 921 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 922 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 923 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 924 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 925 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 926 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 927 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 928 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\woodenfish.off
+nv : 17457
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\woodenfish_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\woodenfish_JL_IOQ_eps0.5.rosy...
+*****************
+*** 929 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 930 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Mesh: ..\..\..\data\ashish_nob\wrench50K.off
+*****************
+*** 931 / 940 ***
+*****************
+	Experiment: MIQ
+	Skipping...
+*****************
+*** 932 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, genus0
+	Skipping...
+*****************
+*** 933 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, genus0
+	Skipping...
+*****************
+*** 934 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt1a
+	Skipping...
+*****************
+*** 935 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt1a
+	Skipping...
+*****************
+*** 936 / 940 ***
+*****************
+	Experiment: IOQ with connectivity laplacian, opt2z
+	Skipping...
+*****************
+*** 937 / 940 ***
+*****************
+	Experiment: IOQ with cot laplacian, opt2z
+	Skipping...
+*****************
+*** 938 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\ashish_nob\wrench50K.off
+nv : 25000
+Trying gpu IOQ...
+Saving .\results\ashish_nob\ffields\wrench50K_JL_IOQ_eps0.5.ffield...
+Saving .\results\ashish_nob\nrosy\wrench50K_JL_IOQ_eps0.5.rosy...
+*****************
+*** 939 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=0.8, conn lap
+	Skipping...
+*****************
+*** 940 / 940 ***
+*****************
+	Experiment: JL IOQ with eps=1, conn lap
+	Skipping...
+Saving statistics to .\results\ashish_nob\stats.mat...
+Done.

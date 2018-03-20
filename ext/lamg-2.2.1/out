@@ -1,0 +1,27 @@
+./graph/main/+graph/+runner/RunnerComponentDecomp.m:36:        function [result, details, updatedGraph] = run(obj, g, ~)
+./graph/main/+graph/+runner/RunnerRemoveOldMetadata.m:32:        function [result, details, updatedGraph] = run(obj, g, ~)
+./graph/main/+graph/+runner/RunnerSimpleStats.m:22:        function [result, details, updatedGraph] = run(obj, graph, ~) %#ok<MANU>
+./graph/main/+graph/+runner/RunnerWriteMat.m:36:        function [result, details, updatedGraph] = run(obj, graph, ~)
+./graph/main/+graph/+writer/WriterFactory.m:31:        function instance = newInstance(obj, formatType, ~)
+./lamg/main/+amg/+coarse/Aggregator.m:81:        function result = aggregationStageLoop(obj, level, cycleIndex, nu, coarseSet, ~)
+./lamg/main/+amg/+coarse/CoarseSetLocalRelax.m:133:        function postVisit(obj, i, ~)
+./lamg/main/+amg/+energy/EnergyBuilderLsTerm.m:80:            [aggregateIndex, ~] = find(obj.coarseLevel.T);
+./lamg/main/+amg/+energy/EnergyBuilderLsTerm.m:149:            [coarseNbhrs, ~]    = find(Ac(:,I));
+./lamg/main/+amg/+energy/EnergyBuilderLsTerm.m:289:            out = setdiff(1:numel(K), ~in);
+./lamg/main/+amg/+energy/EnergyBuilderNodal.m:118:                I, Efine, rRestricted, wEnergy, wResidual, Ac, xc, ~)
+./lamg/main/+amg/+level/AbstractLevel.m:71:            [k, ~] = find(obj.R(:,s));
+./lamg/main/+amg/+level/LevelAgg.m:67:        function x = interpolate(obj, x, ~)
+./lamg/main/+amg/+level/LevelElimination.m:31:        function setP(obj, ~) %#ok
+./lamg/main/+amg/+level/LevelElimination.m:76:                    [a, ~]  = find(Pstage(:,c{i}));
+./lamg/main/+amg/+level/LevelElimination.m:103:                        [a, ~] = find(Pstage(:,components{q}));
+./lamg/main/+amg/+setup/CoarseningStrategyFinest.m:17:        function [coarseLevel, hcr, beta, nu, details] = buildInternal(obj, target, problem, ~)
+./lamg/main/+amg/+tv/TvInitialGuessFromFine.m:11:        function x = build(obj, level, ~) %#ok<MANU>
+./lamg/main/util/affinityInOut.m:23:[out, ~] = find(A(:,in));
+./lamg/main/util/plotLevel.m:53:    [i, ~]      = find(coarseLevel.T(:,args.nodes));
+./lamg/test/+amg/+coarse/UTestMedianColMex.m:65:                [i, ~] = find(A(:,j));
+./lamg/test/+amg/+solve/UTestElimination.m:201:            [acf, ~] = obj.acfComputer.run(problem, cycle, x0);
+./lamg/test/+amg/+solve/UTestRunCycleAcf.m:54:            [r, s, ~] = Solvers.runSolvers('eliminationMaxDegree', 0, ...
+./lamg/test/+amg/+solve/UTestRunCycleAcf.m:63:            [r, s, ~] = Solvers.runSolvers('eliminationMaxDegree', 0, ...
+./lamg/test/sparseops/testSparseSetting.m:58:[j, ~]  = find(A);
+./lamg/test/sparseops/testSparseSetting.m:81:    [j, ~]  = find(A{i});
+./lamg/test/util/RunnerConnComp.m:23:        function [result, details, updatedGraph] = run(obj, g, ~) %#ok<MANU>

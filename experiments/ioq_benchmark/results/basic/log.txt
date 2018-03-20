@@ -1,0 +1,529 @@
+*******************************
+*** experiment_name : basic ***
+*******************************
+Mesh: ..\..\..\data\basic\bumpy.off
+**************
+*** 1 / 54 ***
+**************
+	Experiment: Mixed integer quadrangulation
+Saving .\results\basic\ffields\bumpy_MIQ.ffield...
+Saving .\results\basic\nrosy\bumpy_MIQ.rosy...
+**************
+*** 2 / 54 ***
+**************
+	Experiment: Globally optimal direction fields
+Saving .\results\basic\ffields\bumpy_GO.ffield...
+Saving .\results\basic\nrosy\bumpy_GO.rosy...
+**************
+*** 3 / 54 ***
+**************
+	Experiment: IOQ with connectivity laplacian
+fp : ..\..\..\data\basic\bumpy.off
+nv : 1250
+Trying gpu inv...
+Trying gpu IOQ...
+Saving .\results\basic\ffields\bumpy_IOQ_conn_1a.ffield...
+Saving .\results\basic\nrosy\bumpy_IOQ_conn_1a.rosy...
+**************
+*** 4 / 54 ***
+**************
+	Experiment: JL IOQ with eps=0.3, conn lap
+fp : ..\..\..\data\basic\bumpy.off
+nv : 1250
+Trying gpu IOQ...
+Saving .\results\basic\ffields\bumpy_JL_IOQ_eps0.3.ffield...
+Saving .\results\basic\nrosy\bumpy_JL_IOQ_eps0.3.rosy...
+**************
+*** 5 / 54 ***
+**************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\basic\bumpy.off
+nv : 1250
+Trying gpu IOQ...
+Saving .\results\basic\ffields\bumpy_JL_IOQ_eps0.5.ffield...
+Saving .\results\basic\nrosy\bumpy_JL_IOQ_eps0.5.rosy...
+**************
+*** 6 / 54 ***
+**************
+	Experiment: JL IOQ with eps=0.8, conn lap
+fp : ..\..\..\data\basic\bumpy.off
+nv : 1250
+Trying gpu IOQ...
+Saving .\results\basic\ffields\bumpy_JL_IOQ_eps0.8.ffield...
+Saving .\results\basic\nrosy\bumpy_JL_IOQ_eps0.8.rosy...
+Mesh: ..\..\..\data\basic\bunny.off
+**************
+*** 7 / 54 ***
+**************
+	Experiment: Mixed integer quadrangulation
+Saving .\results\basic\ffields\bunny_MIQ.ffield...
+Saving .\results\basic\nrosy\bunny_MIQ.rosy...
+**************
+*** 8 / 54 ***
+**************
+	Experiment: Globally optimal direction fields
+Saving .\results\basic\ffields\bunny_GO.ffield...
+Saving .\results\basic\nrosy\bunny_GO.rosy...
+**************
+*** 9 / 54 ***
+**************
+	Experiment: IOQ with connectivity laplacian
+fp : ..\..\..\data\basic\bunny.off
+nv : 3485
+Trying gpu inv...
+Trying gpu IOQ...
+Saving .\results\basic\ffields\bunny_IOQ_conn_1a.ffield...
+Saving .\results\basic\nrosy\bunny_IOQ_conn_1a.rosy...
+***************
+*** 10 / 54 ***
+***************
+	Experiment: JL IOQ with eps=0.3, conn lap
+fp : ..\..\..\data\basic\bunny.off
+nv : 3485
+Trying gpu IOQ...
+Saving .\results\basic\ffields\bunny_JL_IOQ_eps0.3.ffield...
+Saving .\results\basic\nrosy\bunny_JL_IOQ_eps0.3.rosy...
+***************
+*** 11 / 54 ***
+***************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\basic\bunny.off
+nv : 3485
+Trying gpu IOQ...
+Saving .\results\basic\ffields\bunny_JL_IOQ_eps0.5.ffield...
+Saving .\results\basic\nrosy\bunny_JL_IOQ_eps0.5.rosy...
+***************
+*** 12 / 54 ***
+***************
+	Experiment: JL IOQ with eps=0.8, conn lap
+fp : ..\..\..\data\basic\bunny.off
+nv : 3485
+Trying gpu IOQ...
+Saving .\results\basic\ffields\bunny_JL_IOQ_eps0.8.ffield...
+Saving .\results\basic\nrosy\bunny_JL_IOQ_eps0.8.rosy...
+Mesh: ..\..\..\data\basic\cat.off
+***************
+*** 13 / 54 ***
+***************
+	Experiment: Mixed integer quadrangulation
+Saving .\results\basic\ffields\cat_MIQ.ffield...
+Saving .\results\basic\nrosy\cat_MIQ.rosy...
+***************
+*** 14 / 54 ***
+***************
+	Experiment: Globally optimal direction fields
+Saving .\results\basic\ffields\cat_GO.ffield...
+Saving .\results\basic\nrosy\cat_GO.rosy...
+***************
+*** 15 / 54 ***
+***************
+	Experiment: IOQ with connectivity laplacian
+fp : ..\..\..\data\basic\cat.off
+nv : 9447
+Trying gpu inv...
+Trying gpu IOQ...
+Saving .\results\basic\ffields\cat_IOQ_conn_1a.ffield...
+Saving .\results\basic\nrosy\cat_IOQ_conn_1a.rosy...
+***************
+*** 16 / 54 ***
+***************
+	Experiment: JL IOQ with eps=0.3, conn lap
+fp : ..\..\..\data\basic\cat.off
+nv : 9447
+Trying gpu IOQ...
+Saving .\results\basic\ffields\cat_JL_IOQ_eps0.3.ffield...
+Saving .\results\basic\nrosy\cat_JL_IOQ_eps0.3.rosy...
+***************
+*** 17 / 54 ***
+***************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\basic\cat.off
+nv : 9447
+Trying gpu IOQ...
+Saving .\results\basic\ffields\cat_JL_IOQ_eps0.5.ffield...
+Saving .\results\basic\nrosy\cat_JL_IOQ_eps0.5.rosy...
+***************
+*** 18 / 54 ***
+***************
+	Experiment: JL IOQ with eps=0.8, conn lap
+fp : ..\..\..\data\basic\cat.off
+nv : 9447
+Trying gpu IOQ...
+Saving .\results\basic\ffields\cat_JL_IOQ_eps0.8.ffield...
+Saving .\results\basic\nrosy\cat_JL_IOQ_eps0.8.rosy...
+Mesh: ..\..\..\data\basic\cow.off
+***************
+*** 19 / 54 ***
+***************
+	Experiment: Mixed integer quadrangulation
+Saving .\results\basic\ffields\cow_MIQ.ffield...
+Saving .\results\basic\nrosy\cow_MIQ.rosy...
+***************
+*** 20 / 54 ***
+***************
+	Experiment: Globally optimal direction fields
+Saving .\results\basic\ffields\cow_GO.ffield...
+Saving .\results\basic\nrosy\cow_GO.rosy...
+***************
+*** 21 / 54 ***
+***************
+	Experiment: IOQ with connectivity laplacian
+fp : ..\..\..\data\basic\cow.off
+nv : 2762
+Trying gpu inv...
+Trying gpu IOQ...
+Saving .\results\basic\ffields\cow_IOQ_conn_1a.ffield...
+Saving .\results\basic\nrosy\cow_IOQ_conn_1a.rosy...
+***************
+*** 22 / 54 ***
+***************
+	Experiment: JL IOQ with eps=0.3, conn lap
+fp : ..\..\..\data\basic\cow.off
+nv : 2762
+Trying gpu IOQ...
+Saving .\results\basic\ffields\cow_JL_IOQ_eps0.3.ffield...
+Saving .\results\basic\nrosy\cow_JL_IOQ_eps0.3.rosy...
+***************
+*** 23 / 54 ***
+***************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\basic\cow.off
+nv : 2762
+Trying gpu IOQ...
+Saving .\results\basic\ffields\cow_JL_IOQ_eps0.5.ffield...
+Saving .\results\basic\nrosy\cow_JL_IOQ_eps0.5.rosy...
+***************
+*** 24 / 54 ***
+***************
+	Experiment: JL IOQ with eps=0.8, conn lap
+fp : ..\..\..\data\basic\cow.off
+nv : 2762
+Trying gpu IOQ...
+Saving .\results\basic\ffields\cow_JL_IOQ_eps0.8.ffield...
+Saving .\results\basic\nrosy\cow_JL_IOQ_eps0.8.rosy...
+Mesh: ..\..\..\data\basic\lion.off
+***************
+*** 25 / 54 ***
+***************
+	Experiment: Mixed integer quadrangulation
+Saving .\results\basic\ffields\lion_MIQ.ffield...
+Saving .\results\basic\nrosy\lion_MIQ.rosy...
+	Experiment failed. 
+	Stack: Subscript indices must either be real positive integers or logicals.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('per_edge_energy', 'C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\experiments\ioq_benchmark\per_edge_energy.m', 17)" style="font-weight:bold">per_edge_energy</a> (<a href="matlab: opentoline('C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\experiments\ioq_benchmark\per_edge_energy.m',17,0)">line 17</a>)
+    ti = t(i);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ioq_benchmark', 'C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\experiments\ioq_benchmark\ioq_benchmark.m', 294)" style="font-weight:bold">ioq_benchmark</a> (<a href="matlab: opentoline('C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\experiments\ioq_benchmark\ioq_benchmark.m',294,0)">line 294</a>)
+            st.miq_edge = per_edge_energy(res.m);
+***************
+*** 26 / 54 ***
+***************
+	Experiment: Globally optimal direction fields
+	Experiment failed. 
+	Stack: Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('GO>build_real_GO_system', 'C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\GODF\GO.m', 140)" style="font-weight:bold">GO>build_real_GO_system</a> (<a href="matlab: opentoline('C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\GODF\GO.m',140,0)">line 140</a>)
+Boundary edges not implemented
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('GO', 'C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\GODF\GO.m', 74)" style="font-weight:bold">GO</a> (<a href="matlab: opentoline('C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\GODF\GO.m',74,0)">line 74</a>)
+    [A_s, A_l] = build_real_GO_system(mesh, face_ids, constraint_vectors, degree);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('go_wrapper', 'C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\experiments\ioq_benchmark\go_wrapper.m', 2)" style="font-weight:bold">go_wrapper</a> (<a href="matlab: opentoline('C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\experiments\ioq_benchmark\go_wrapper.m',2,0)">line 2</a>)
+    [res.m, res.elapsed_total] = GO(fp, varargin{:});
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ioq_benchmark', 'C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\experiments\ioq_benchmark\ioq_benchmark.m', 278)" style="font-weight:bold">ioq_benchmark</a> (<a href="matlab: opentoline('C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\experiments\ioq_benchmark\ioq_benchmark.m',278,0)">line 278</a>)
+            res = feval(exp.func, fp, exp.args{:});                
+***************
+*** 27 / 54 ***
+***************
+	Experiment: IOQ with connectivity laplacian
+fp : ..\..\..\data\basic\lion.off
+nv : 8356
+Trying gpu inv...
+Trying gpu IOQ...
+IOQ failed with GPU, trying without...
+	Experiment failed. 
+	Stack: Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Mesh/get.generator_cycles', 'C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\mesh\Mesh.m', 1002)" style="font-weight:bold">Mesh/get.generator_cycles</a> (<a href="matlab: opentoline('C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\mesh\Mesh.m',1002,0)">line 1002</a>)
+Assumes no boundaries!
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Mesh/get.H', 'C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\mesh\Mesh.m', 1408)" style="font-weight:bold">Mesh/get.H</a> (<a href="matlab: opentoline('C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\mesh\Mesh.m',1408,0)">line 1408</a>)
+            cycles = self.generator_cycles();
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('IOQ_highgenus_gpu', 'C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\IOQ\IOQ_highgenus_gpu.m', 215)" style="font-weight:bold">IOQ_highgenus_gpu</a> (<a href="matlab: opentoline('C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\IOQ\IOQ_highgenus_gpu.m',215,0)">line 215</a>)
+        H = -mesh.H;
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ioq_wrapper', 'C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\experiments\ioq_benchmark\ioq_wrapper.m', 120)" style="font-weight:bold">ioq_wrapper</a> (<a href="matlab: opentoline('C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\experiments\ioq_benchmark\ioq_wrapper.m',120,0)">line 120</a>)
+        [alpha_p, beta_p, elapsed_ioq] = IOQ_highgenus_gpu(m.V, m.F, ...
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ioq_benchmark', 'C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\experiments\ioq_benchmark\ioq_benchmark.m', 278)" style="font-weight:bold">ioq_benchmark</a> (<a href="matlab: opentoline('C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\experiments\ioq_benchmark\ioq_benchmark.m',278,0)">line 278</a>)
+            res = feval(exp.func, fp, exp.args{:});                
+***************
+*** 28 / 54 ***
+***************
+	Experiment: JL IOQ with eps=0.3, conn lap
+fp : ..\..\..\data\basic\lion.off
+nv : 8356
+Trying gpu IOQ...
+IOQ failed with GPU, trying without...
+	Experiment failed. 
+	Stack: Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Mesh/get.generator_cycles', 'C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\mesh\Mesh.m', 1002)" style="font-weight:bold">Mesh/get.generator_cycles</a> (<a href="matlab: opentoline('C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\mesh\Mesh.m',1002,0)">line 1002</a>)
+Assumes no boundaries!
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Mesh/get.H', 'C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\mesh\Mesh.m', 1408)" style="font-weight:bold">Mesh/get.H</a> (<a href="matlab: opentoline('C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\mesh\Mesh.m',1408,0)">line 1408</a>)
+            cycles = self.generator_cycles();
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('IOQ_highgenus_gpu', 'C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\IOQ\IOQ_highgenus_gpu.m', 215)" style="font-weight:bold">IOQ_highgenus_gpu</a> (<a href="matlab: opentoline('C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\IOQ\IOQ_highgenus_gpu.m',215,0)">line 215</a>)
+        H = -mesh.H;
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ioq_wrapper', 'C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\experiments\ioq_benchmark\ioq_wrapper.m', 120)" style="font-weight:bold">ioq_wrapper</a> (<a href="matlab: opentoline('C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\experiments\ioq_benchmark\ioq_wrapper.m',120,0)">line 120</a>)
+        [alpha_p, beta_p, elapsed_ioq] = IOQ_highgenus_gpu(m.V, m.F, ...
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ioq_benchmark', 'C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\experiments\ioq_benchmark\ioq_benchmark.m', 278)" style="font-weight:bold">ioq_benchmark</a> (<a href="matlab: opentoline('C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\experiments\ioq_benchmark\ioq_benchmark.m',278,0)">line 278</a>)
+            res = feval(exp.func, fp, exp.args{:});                
+***************
+*** 29 / 54 ***
+***************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\basic\lion.off
+nv : 8356
+Trying gpu IOQ...
+IOQ failed with GPU, trying without...
+	Experiment failed. 
+	Stack: Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Mesh/get.generator_cycles', 'C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\mesh\Mesh.m', 1002)" style="font-weight:bold">Mesh/get.generator_cycles</a> (<a href="matlab: opentoline('C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\mesh\Mesh.m',1002,0)">line 1002</a>)
+Assumes no boundaries!
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Mesh/get.H', 'C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\mesh\Mesh.m', 1408)" style="font-weight:bold">Mesh/get.H</a> (<a href="matlab: opentoline('C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\mesh\Mesh.m',1408,0)">line 1408</a>)
+            cycles = self.generator_cycles();
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('IOQ_highgenus_gpu', 'C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\IOQ\IOQ_highgenus_gpu.m', 215)" style="font-weight:bold">IOQ_highgenus_gpu</a> (<a href="matlab: opentoline('C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\IOQ\IOQ_highgenus_gpu.m',215,0)">line 215</a>)
+        H = -mesh.H;
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ioq_wrapper', 'C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\experiments\ioq_benchmark\ioq_wrapper.m', 120)" style="font-weight:bold">ioq_wrapper</a> (<a href="matlab: opentoline('C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\experiments\ioq_benchmark\ioq_wrapper.m',120,0)">line 120</a>)
+        [alpha_p, beta_p, elapsed_ioq] = IOQ_highgenus_gpu(m.V, m.F, ...
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ioq_benchmark', 'C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\experiments\ioq_benchmark\ioq_benchmark.m', 278)" style="font-weight:bold">ioq_benchmark</a> (<a href="matlab: opentoline('C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\experiments\ioq_benchmark\ioq_benchmark.m',278,0)">line 278</a>)
+            res = feval(exp.func, fp, exp.args{:});                
+***************
+*** 30 / 54 ***
+***************
+	Experiment: JL IOQ with eps=0.8, conn lap
+fp : ..\..\..\data\basic\lion.off
+nv : 8356
+Trying gpu IOQ...
+IOQ failed with GPU, trying without...
+	Experiment failed. 
+	Stack: Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Mesh/get.generator_cycles', 'C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\mesh\Mesh.m', 1002)" style="font-weight:bold">Mesh/get.generator_cycles</a> (<a href="matlab: opentoline('C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\mesh\Mesh.m',1002,0)">line 1002</a>)
+Assumes no boundaries!
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Mesh/get.H', 'C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\mesh\Mesh.m', 1408)" style="font-weight:bold">Mesh/get.H</a> (<a href="matlab: opentoline('C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\mesh\Mesh.m',1408,0)">line 1408</a>)
+            cycles = self.generator_cycles();
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('IOQ_highgenus_gpu', 'C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\IOQ\IOQ_highgenus_gpu.m', 215)" style="font-weight:bold">IOQ_highgenus_gpu</a> (<a href="matlab: opentoline('C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\IOQ\IOQ_highgenus_gpu.m',215,0)">line 215</a>)
+        H = -mesh.H;
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ioq_wrapper', 'C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\experiments\ioq_benchmark\ioq_wrapper.m', 120)" style="font-weight:bold">ioq_wrapper</a> (<a href="matlab: opentoline('C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\experiments\ioq_benchmark\ioq_wrapper.m',120,0)">line 120</a>)
+        [alpha_p, beta_p, elapsed_ioq] = IOQ_highgenus_gpu(m.V, m.F, ...
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ioq_benchmark', 'C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\experiments\ioq_benchmark\ioq_benchmark.m', 278)" style="font-weight:bold">ioq_benchmark</a> (<a href="matlab: opentoline('C:\Users\nahumf\Desktop\Dropbox (Technion CS)\miri\phase_unwrapping\code\experiments\ioq_benchmark\ioq_benchmark.m',278,0)">line 278</a>)
+            res = feval(exp.func, fp, exp.args{:});                
+Mesh: ..\..\..\data\basic\oloid3.off
+***************
+*** 31 / 54 ***
+***************
+	Experiment: Mixed integer quadrangulation
+Saving .\results\basic\ffields\oloid3_MIQ.ffield...
+Saving .\results\basic\nrosy\oloid3_MIQ.rosy...
+***************
+*** 32 / 54 ***
+***************
+	Experiment: Globally optimal direction fields
+Saving .\results\basic\ffields\oloid3_GO.ffield...
+Saving .\results\basic\nrosy\oloid3_GO.rosy...
+***************
+*** 33 / 54 ***
+***************
+	Experiment: IOQ with connectivity laplacian
+fp : ..\..\..\data\basic\oloid3.off
+nv : 3915
+Trying gpu inv...
+Trying gpu IOQ...
+Saving .\results\basic\ffields\oloid3_IOQ_conn_1a.ffield...
+Saving .\results\basic\nrosy\oloid3_IOQ_conn_1a.rosy...
+***************
+*** 34 / 54 ***
+***************
+	Experiment: JL IOQ with eps=0.3, conn lap
+fp : ..\..\..\data\basic\oloid3.off
+nv : 3915
+Trying gpu IOQ...
+Saving .\results\basic\ffields\oloid3_JL_IOQ_eps0.3.ffield...
+Saving .\results\basic\nrosy\oloid3_JL_IOQ_eps0.3.rosy...
+***************
+*** 35 / 54 ***
+***************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\basic\oloid3.off
+nv : 3915
+Trying gpu IOQ...
+Saving .\results\basic\ffields\oloid3_JL_IOQ_eps0.5.ffield...
+Saving .\results\basic\nrosy\oloid3_JL_IOQ_eps0.5.rosy...
+***************
+*** 36 / 54 ***
+***************
+	Experiment: JL IOQ with eps=0.8, conn lap
+fp : ..\..\..\data\basic\oloid3.off
+nv : 3915
+Trying gpu IOQ...
+Saving .\results\basic\ffields\oloid3_JL_IOQ_eps0.8.ffield...
+Saving .\results\basic\nrosy\oloid3_JL_IOQ_eps0.8.rosy...
+Mesh: ..\..\..\data\basic\phands.off
+***************
+*** 37 / 54 ***
+***************
+	Experiment: Mixed integer quadrangulation
+Saving .\results\basic\ffields\phands_MIQ.ffield...
+Saving .\results\basic\nrosy\phands_MIQ.rosy...
+***************
+*** 38 / 54 ***
+***************
+	Experiment: Globally optimal direction fields
+Saving .\results\basic\ffields\phands_GO.ffield...
+Saving .\results\basic\nrosy\phands_GO.rosy...
+***************
+*** 39 / 54 ***
+***************
+	Experiment: IOQ with connectivity laplacian
+fp : ..\..\..\data\basic\phands.off
+nv : 3978
+Trying gpu inv...
+Trying gpu IOQ...
+Saving .\results\basic\ffields\phands_IOQ_conn_1a.ffield...
+Saving .\results\basic\nrosy\phands_IOQ_conn_1a.rosy...
+***************
+*** 40 / 54 ***
+***************
+	Experiment: JL IOQ with eps=0.3, conn lap
+fp : ..\..\..\data\basic\phands.off
+nv : 3978
+Trying gpu IOQ...
+Saving .\results\basic\ffields\phands_JL_IOQ_eps0.3.ffield...
+Saving .\results\basic\nrosy\phands_JL_IOQ_eps0.3.rosy...
+***************
+*** 41 / 54 ***
+***************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\basic\phands.off
+nv : 3978
+Trying gpu IOQ...
+Saving .\results\basic\ffields\phands_JL_IOQ_eps0.5.ffield...
+Saving .\results\basic\nrosy\phands_JL_IOQ_eps0.5.rosy...
+***************
+*** 42 / 54 ***
+***************
+	Experiment: JL IOQ with eps=0.8, conn lap
+fp : ..\..\..\data\basic\phands.off
+nv : 3978
+Trying gpu IOQ...
+Saving .\results\basic\ffields\phands_JL_IOQ_eps0.8.ffield...
+Saving .\results\basic\nrosy\phands_JL_IOQ_eps0.8.rosy...
+Mesh: ..\..\..\data\basic\round_cuber.off
+***************
+*** 43 / 54 ***
+***************
+	Experiment: Mixed integer quadrangulation
+Saving .\results\basic\ffields\round_cuber_MIQ.ffield...
+Saving .\results\basic\nrosy\round_cuber_MIQ.rosy...
+***************
+*** 44 / 54 ***
+***************
+	Experiment: Globally optimal direction fields
+Saving .\results\basic\ffields\round_cuber_GO.ffield...
+Saving .\results\basic\nrosy\round_cuber_GO.rosy...
+***************
+*** 45 / 54 ***
+***************
+	Experiment: IOQ with connectivity laplacian
+fp : ..\..\..\data\basic\round_cuber.off
+nv : 5256
+Trying gpu inv...
+Trying gpu IOQ...
+Saving .\results\basic\ffields\round_cuber_IOQ_conn_1a.ffield...
+Saving .\results\basic\nrosy\round_cuber_IOQ_conn_1a.rosy...
+***************
+*** 46 / 54 ***
+***************
+	Experiment: JL IOQ with eps=0.3, conn lap
+fp : ..\..\..\data\basic\round_cuber.off
+nv : 5256
+Trying gpu IOQ...
+Saving .\results\basic\ffields\round_cuber_JL_IOQ_eps0.3.ffield...
+Saving .\results\basic\nrosy\round_cuber_JL_IOQ_eps0.3.rosy...
+***************
+*** 47 / 54 ***
+***************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\basic\round_cuber.off
+nv : 5256
+Trying gpu IOQ...
+Saving .\results\basic\ffields\round_cuber_JL_IOQ_eps0.5.ffield...
+Saving .\results\basic\nrosy\round_cuber_JL_IOQ_eps0.5.rosy...
+***************
+*** 48 / 54 ***
+***************
+	Experiment: JL IOQ with eps=0.8, conn lap
+fp : ..\..\..\data\basic\round_cuber.off
+nv : 5256
+Trying gpu IOQ...
+Saving .\results\basic\ffields\round_cuber_JL_IOQ_eps0.8.ffield...
+Saving .\results\basic\nrosy\round_cuber_JL_IOQ_eps0.8.rosy...
+Mesh: ..\..\..\data\basic\rounded_cube_keenan.off
+***************
+*** 49 / 54 ***
+***************
+	Experiment: Mixed integer quadrangulation
+Saving .\results\basic\ffields\rounded_cube_keenan_MIQ.ffield...
+Saving .\results\basic\nrosy\rounded_cube_keenan_MIQ.rosy...
+***************
+*** 50 / 54 ***
+***************
+	Experiment: Globally optimal direction fields
+Saving .\results\basic\ffields\rounded_cube_keenan_GO.ffield...
+Saving .\results\basic\nrosy\rounded_cube_keenan_GO.rosy...
+***************
+*** 51 / 54 ***
+***************
+	Experiment: IOQ with connectivity laplacian
+fp : ..\..\..\data\basic\rounded_cube_keenan.off
+nv : 12536
+Trying gpu inv...
+Trying gpu IOQ...
+Saving .\results\basic\ffields\rounded_cube_keenan_IOQ_conn_1a.ffield...
+Saving .\results\basic\nrosy\rounded_cube_keenan_IOQ_conn_1a.rosy...
+***************
+*** 52 / 54 ***
+***************
+	Experiment: JL IOQ with eps=0.3, conn lap
+fp : ..\..\..\data\basic\rounded_cube_keenan.off
+nv : 12536
+Trying gpu IOQ...
+Saving .\results\basic\ffields\rounded_cube_keenan_JL_IOQ_eps0.3.ffield...
+Saving .\results\basic\nrosy\rounded_cube_keenan_JL_IOQ_eps0.3.rosy...
+***************
+*** 53 / 54 ***
+***************
+	Experiment: JL IOQ with eps=0.5, conn lap
+fp : ..\..\..\data\basic\rounded_cube_keenan.off
+nv : 12536
+Trying gpu IOQ...
+Saving .\results\basic\ffields\rounded_cube_keenan_JL_IOQ_eps0.5.ffield...
+Saving .\results\basic\nrosy\rounded_cube_keenan_JL_IOQ_eps0.5.rosy...
+***************
+*** 54 / 54 ***
+***************
+	Experiment: JL IOQ with eps=0.8, conn lap
+fp : ..\..\..\data\basic\rounded_cube_keenan.off
+nv : 12536
+Trying gpu IOQ...
+Saving .\results\basic\ffields\rounded_cube_keenan_JL_IOQ_eps0.8.ffield...
+Saving .\results\basic\nrosy\rounded_cube_keenan_JL_IOQ_eps0.8.rosy...
+Saving statistics to .\results\basic\stats.mat...
+Done.
