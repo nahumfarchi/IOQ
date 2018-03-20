@@ -108,7 +108,7 @@ function [C, b] = create_constraints_mat(m, fids_list, thetas_list, frame_diffs)
             
             fi = fj;
         end
-        b(k-1) = thetaj - thetai;
+        b(k-1) = (thetaj - thetai);
     end
     
     

@@ -1785,6 +1785,10 @@ classdef Mesh < matlab.mixin.Copyable
             if ~isempty(obj.vert_sing) && p.Results.PlotSing
                 S = obj.vert_sing;
                 colors = linspecer(2);
+                if size(S, 2) == 1
+                    inds = find(S);
+                    S = [inds, S(inds)];
+                end
                 for j = 1:size(S,1)
                     fid = S(j, 1);
                     if S(j, 2) > 0

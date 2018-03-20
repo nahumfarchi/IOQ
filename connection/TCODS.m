@@ -40,6 +40,7 @@ function [resm] = TCODS(m, varargin)
     addOptional(p, 'CreateFField', true);
     addOptional(p, 'Duplicate', true);
     addOptional(p, 'Constraints', []);
+    addOptional(p, 'Gamma', []);
     
     parse(p, varargin{:});
     opt = p.Results;
@@ -65,6 +66,11 @@ function [resm] = TCODS(m, varargin)
     verbose = opt.verbose;
     log = opt.log;
     constraints = opt.Constraints;
+    nc = size(constraints, 1);
+    gamma = opt.Gamma;
+    if isempty(gamma)
+        gamma = zeros(max(0, nc-1), 1);
+    end
     
     [local_frames, frame_diffs] = create_local_frames(m);
     
@@ -81,12 +87,14 @@ function [resm] = TCODS(m, varargin)
     if ~isempty(constraints)
         constrained_faces = constraints(:, 1);
         constraint_thetas = constraints(:, 2);
-        f0 = constraints(1, 1); theta0 = constraints(1, 2);
-        frame1 = local_frames(f0, :); frame2 = local_frames(f0+nf);
+        f0 = constraints(1, 1); 
+        theta0 = constraints(1, 2);
+        frame1 = local_frames(f0, :); 
+        frame2 = local_frames(f0+nf);
         gvec = cos(theta0)*frame1 + sin(theta0)*frame2;
         [C, bc] = create_constraints_mat(m, constrained_faces, constraint_thetas, frame_diffs);
         A = [A; C];
-        b = [b; bc];
+        b = [b; pi/2 * gamma - bc];
     end
     
     x = lsqlin(speye(n, n), zeros(n, 1), [], [], A, b, -inf(n, 1), inf(n, 1));
