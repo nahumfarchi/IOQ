@@ -14,6 +14,7 @@ PLOT_PROPS = {'FaceColor', 'w', 'PlotField', true, 'Constraints', CONSTRAINTS};
     'Constraints', CONSTRAINTS);
 gamma = out.gamma;
 disp(norm(x)^2)
+res_ioq = out.m;
 
 %% run TCODS
 k = [alpha; beta];
@@ -41,22 +42,16 @@ end
 disp(res_tc.miq_energy)
 
 %%
-cam = [];
-% cam.pba = [187.409091 342.300000 187.409091 ];
-% cam.dar = [1 1 1 ];
-% cam.cva = [2.181558 ];
-% cam.cuv = [-0.046484 0.797630 -0.601353 ];
-% cam.ct = [0.000080 0.000084 -0.000167 ];
-% cam.cp = [2.209290 -13.807737 -18.485526 ];
+cfaces = CONSTRAINTS(:, 1);
+cvecs  = langles_to_vecs3d(m, cfaces, CONSTRAINTS(:, 2));
+[res_miq, elapsed_miq] = nrosy_mex(fp, cfaces, cvecs, DEGREE);
 
-title1 = sprintf('ioq, E = %g', out.m.miq_energy);
-title2 = sprintf('tc,  E = %g', res_tc.miq_energy);
+%%
+title_ioq = sprintf('ioq, E = %g', res_ioq.miq_energy);
+title_tc = sprintf('tc,  E = %g', res_tc.miq_energy);
+title_miq = sprintf('miq, E = %g', res_miq.miq_energy);
 
-figure; out.m.draw(PLOT_PROPS{:}); title(title1)
-set_camera(gca, cam);
-figure; res_tc.draw(PLOT_PROPS{:}); title(title2)
-set_camera(gca, cam);
-
-hold on
-%res_tc.drawLabels()
-hold off
+figure
+subplot(131); out.m.draw(PLOT_PROPS{:}); title(title_ioq)
+subplot(132); res_tc.draw(PLOT_PROPS{:}); title(title_tc)
+subplot(133); res_miq.draw(PLOT_PROPS{:}); title(title_miq)

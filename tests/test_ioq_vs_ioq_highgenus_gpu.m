@@ -1,6 +1,6 @@
 %%%%%
 FACE0  = 1;         % starting face for tcods
-THETA0 = nan;       % (use global constraint instead)
+THETA0 = nan;       % (use constraint in 3D coords instead)
 GVEC   = [1, 0, 0]; % constraint vector (in global coordinates)
 DEGREE = 4;         % works only for degree 4 atm
 SEED   = 112;
