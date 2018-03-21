@@ -1979,9 +1979,12 @@ classdef Mesh < matlab.mixin.Copyable
             end
         end
         
-        function labelFaces(self, f_labels, FORMAT, offset, varargin)
+        function labelFaces(self, inds, f_labels, FORMAT, offset, varargin)
             if nargin < 2
-                f_labels = 1:self.nF;
+                inds = 1:self.nF;
+            end
+            if nargin < 3
+                f_labels = inds;
             end
             if nargin < 3
                 FORMAT = '%d';
@@ -1989,12 +1992,14 @@ classdef Mesh < matlab.mixin.Copyable
             if nargin < 4
                 offset = [0, 0, 0];
             end
-            for fid = 1:self.nF
+            for i = 1:length(inds)
+                fid = inds(i);
+                flab = f_labels(i);
                 v1 = self.V(self.F(fid, 1), :);
                 v2 = self.V(self.F(fid, 2), :);
                 v3 = self.V(self.F(fid, 3), :);
                 p = (v1 + v2 + v3) / 3 + offset;
-                text(p(1), p(2), p(3), num2str(f_labels(fid), FORMAT), varargin{:});
+                text(p(1), p(2), p(3), num2str(flab, FORMAT), varargin{:});
             end
         end
         

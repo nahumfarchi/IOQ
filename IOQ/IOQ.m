@@ -183,6 +183,23 @@ function [alpha, beta, connection, stats, out] = IOQ(verts, faces, varargin)
     end
     if ~isempty(gd), wait(gd); end; stats.T_gen = toc;
     
+    if isempty(opt.Constraints)
+        has_constraints = false;
+    else
+        has_constraints = true;
+        constrained_faces = opt.Constraints(:, 1);
+        constraint_thetas = opt.Constraints(:, 2);
+        nc = length(constrained_faces);
+        f0 = opt.Constraints(1, 1); theta0 = opt.Constraints(1, 2);
+        %frame1 = local_frames(f0, :); frame2 = local_frames(f0+nf);
+        %gvec = cos(theta0)*frame1 + sin(theta0)*frame2;
+        [local_frames, frame_diffs] = create_local_frames(mesh);
+        [R, gamma_g] = create_constraints_mat(mesh, constrained_faces, constraint_thetas, frame_diffs);
+        R = R';
+    end
+    
+    a = []; b = []; c = [];
+    
     % ---------------------------------------------------------------------
     % Solve for alpha (gridsearch)
     % ---------------------------------------------------------------------
@@ -190,6 +207,8 @@ function [alpha, beta, connection, stats, out] = IOQ(verts, faces, varargin)
     if verb, disp('Gridsearch...'); end
     tic
     if approx
+    elseif has_constraints
+        
     else
         alpha = gridsearch(Lp, alpha, x0);
     end
@@ -225,15 +244,6 @@ function [alpha, beta, connection, stats, out] = IOQ(verts, faces, varargin)
     % Solve for gamma (i.e., the constraint singularities)
     % ---------------------------------------------------------------------
     if ~isempty(opt.Constraints)
-        constrained_faces = opt.Constraints(:, 1);
-        constraint_thetas = opt.Constraints(:, 2);
-        nc = length(constrained_faces);
-        f0 = opt.Constraints(1, 1); theta0 = opt.Constraints(1, 2);
-        %frame1 = local_frames(f0, :); frame2 = local_frames(f0+nf);
-        %gvec = cos(theta0)*frame1 + sin(theta0)*frame2;
-        [local_frames, frame_diffs] = create_local_frames(mesh);
-        [R, gamma_g] = create_constraints_mat(mesh, constrained_faces, constraint_thetas, frame_diffs);
-        R = R';
         if genus > 0
             gamma = round( 2/pi * ( gamma_g + R'*d0*a + R'*B*b ) );
             c = inverse( R' * d1' ) * (pi/2 * gamma - gamma_g - R'*d0*a - R'*B*b );
@@ -270,6 +280,9 @@ function [alpha, beta, connection, stats, out] = IOQ(verts, faces, varargin)
         out.alpha_g = alpha_g;
         out.beta_g = beta_g;
         out.gamma = gamma;
+        out.a = a;
+        out.b = b;
+        out.c = c;
         degree = 4;
         [out.ffield, out.theta, local_frames, frame_diffs] = connection_to_nrosy(...
                      mesh, ...

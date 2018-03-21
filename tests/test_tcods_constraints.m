@@ -66,10 +66,14 @@ subplot(132); res_tc.draw(PLOT_PROPS{:}); title(title_tc)
 subplot(133); res_miq.draw(PLOT_PROPS{:}); title(title_miq)
 
 %%
+PLOT_PROPS = {'FaceColor', 'w', 'PlotField', true, 'Constraints', CONSTRAINTS, 'EdgeColor', 'k'};
 figure
 paths = {};
 for i = 1:size(R, 2)
     paths{end+1} = find(R(:, i));
 end
 res_ioq.draw(PLOT_PROPS{:});
-hold on; res_ioq.plotEdgePaths(paths, 'color', 'r'); hold off;
+hold on; 
+res_ioq.labelFaces(cfaces);
+res_ioq.plotEdgePaths(paths, 'color', 'r'); 
+hold off;
