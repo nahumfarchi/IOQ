@@ -49,6 +49,8 @@ function [alpha, beta, connection, stats, out] = IOQ(verts, faces, varargin)
     addOptional(parser, 'BetaMethod', 'round');
     addOptional(parser, 'BetaMax', 20);
     addOptional(parser, 'Constraints', []);
+    addOptional(parser, 'Gamma', []);
+    addOptional(parser, 'GatherStats', true);
 
     parse(parser, varargin{:});
     opt = parser.Results;
@@ -67,8 +69,8 @@ function [alpha, beta, connection, stats, out] = IOQ(verts, faces, varargin)
     
     nv = mesh.nV; ne = mesh.nE;
     
-    gather_stats = false;
-    if nargout > 3
+    gather_stats = opt.GatherStats;
+    if nargout > 3 && gather_stats
         stats.T_setup = 0;
         stats.T_lap = 0;
         stats.T_inv = 0;
@@ -76,10 +78,9 @@ function [alpha, beta, connection, stats, out] = IOQ(verts, faces, varargin)
         stats.T_gridsearch = 0;
         stats.T_beta = 0;
         stats.T_total = 0;
-        stats.E_hist = zeros(opt.Iterations, 1);
-        stats.Ea_hist = zeros(opt.Iterations, 1);
-        stats.Eb_hist = zeros(opt.Iterations, 1);
-        gather_stats = true;
+        stats.E_hist = [];
+        stats.Ea_hist = [];
+        stats.Eb_hist = [];
     end
     
     % ---------------------------------------------------------------------
@@ -208,7 +209,7 @@ function [alpha, beta, connection, stats, out] = IOQ(verts, faces, varargin)
     tic
     if approx
     elseif has_constraints
-        
+        alpha = gridsearch2(alpha);
     else
         alpha = gridsearch(Lp, alpha, x0);
     end
@@ -244,11 +245,19 @@ function [alpha, beta, connection, stats, out] = IOQ(verts, faces, varargin)
     % Solve for gamma (i.e., the constraint singularities)
     % ---------------------------------------------------------------------
     if ~isempty(opt.Constraints)
-        if genus > 0
+        if ~isempty(opt.Gamma)
+            gamma = opt.Gamma;
+        elseif genus > 0
             gamma = round( 2/pi * ( gamma_g + R'*d0*a + R'*B*b ) );
-            c = inverse( R' * d1' ) * (pi/2 * gamma - gamma_g - R'*d0*a - R'*B*b );
         else
             gamma = round( 2/pi * ( gamma_g + R'*d0*a ) );
+        end
+        
+        if genus > 0
+            %c = inverse( R' * d1' ) * (pi/2 * gamma - gamma_g - R'*d0*a - R'*B*b );
+            c = lsqlin(d1', ...
+                zeros(ne, 1), [], [], R'*d1', (pi/2) * gamma - gamma_g - R'*d0*a - R'*B*b, [], []);
+        else
             %gamma = zeros(nc - 1, 1);
             %c = (R' * d1') \ (pi/2 * gamma - gamma_g - R'*d0*a );
             c = lsqlin(d1', ...
@@ -416,6 +425,57 @@ function x = gridsearch(M, x, x0)
     end
 end
 
+function x = gridsearch2(alpha)
+    x = alpha;
+    x0 = (2/pi)*alpha_g;
+    M1 = Lp;
+    b1 = 2*M1*(x-x0);
+    dm1 = diag(M1);
+    
+    M2 = inverse(R'*d1')'*(d1*d1')*inverse(R'*d1');
+    A2 = R'*d0*Lp;
+    M2_tilde = A2'*M2*A2;
+    dm2 = diag(M2_tilde);
+
+    a = FL \ ( (pi/2)*alpha - alpha_g );
+    if ~exist('gamma', 'var')
+        gamma = round( 2/pi * ( gamma_g + R'*d0*a ) );
+    end
+    %y_tilde = gamma - (2/pi)*gamma_g+R'*d0*Lp*x0;
+    y_tilde = gamma - (2/pi)*gamma_g+A2*x0;
+    b2 = 2*A2'*(M2'*(A2*x-y_tilde));   
+    
+    for iter = 1:opt.Iterations
+        if gather_stats
+            update_stats(iter, x, x0);
+        end
+        
+        if opt.Verbose && mod(iter, 10) == 0
+            fprintf('iter, m : %d, %g\n', iter, min_val);
+        end
+        
+        [min_val, i] = min(bsxfun(@plus, dm1+b1, (dm1-b1)' - 2*M1) + ...
+                           bsxfun(@plus, dm2+b2, (dm2-b2)' - 2*M2_tilde));
+        [min_val, j] = min(min_val);
+        i = i(j);
+        x(i) = x(i) + 1;
+        x(j) = x(j) - 1;
+        b1 = b1 + 2*M1(:, i) - 2*M1(:, j);
+        b2 = b2 + 2*M2_tilde(:, i) - 2*M2_tilde(:, j);
+        
+%         a = FL \ ( (pi/2)*x - alpha_g );
+%         gamma = round( 2/pi * ( gamma_g + R'*d0*a ) );
+%         %y_tilde = gamma - (2/pi)*gamma_g+R'*d0*Lp*x0;
+%         y_tilde = gamma - (2/pi)*gamma_g+A2*x0;
+%         b2 = 2*A2'*(M2'*(A2*x-y_tilde));   
+        
+        if abs(min_val(1)) < opt.Tol
+            disp('Minimization complete because optimality tolerance was reached.')
+            disp(['m : ', num2str(min_val)])
+            break
+        end
+    end
+end
     
 function [Ztilde, Rtilde] = resistance_distance()
 %[Ztilde, Rtilde] = resistance_distance(m, eps, JLFac, useGPU)
@@ -496,8 +556,27 @@ function res = pdist_block(Ztilde)
 end
 
 function update_stats(iter, x, x0)
-    a = FL \ gather(x - x0);
-    stats.Ea_hist(iter) = gather((x-x0)' * a);
+    %a = FL \ gather(x - x0);
+    a = FL \ ( (pi/2)*x - alpha_g );
+    stats.Ea_hist(iter) = norm(d0*a)^2;
+    
+    if genus > 0
+        %c = inverse( R' * d1' ) * (pi/2 * gamma - gamma_g - R'*d0*a - R'*B*b );
+        [c,~,~,~,~] = lsqlin(d1', ...
+            zeros(ne, 1), [], [], R'*d1', (pi/2) * gamma - gamma_g - R'*d0*a - R'*B*b, [], []);
+    else
+        %gamma = zeros(nc - 1, 1);
+        %c = (R' * d1') \ (pi/2 * gamma - gamma_g - R'*d0*a );
+        [c,~,~,~,~] = lsqlin(d1', ...
+            zeros(ne, 1), [], [], R'*d1', (pi/2) * gamma - gamma_g - R'*d0*a, [], []);
+    end
+    stats.Ec_hist(iter) = norm(d1'*c)^2;
+    
+    stats.Ehist(iter) = stats.Ea_hist(iter) + stats.Ec_hist(iter);
+    
+    %stats.Ea_hist(iter) = gather((x-x0)' * a);
+    %if exist('c', 'var')
+    %    stats.Ec_hist(iter) = gather(
     % TODO
 %     if genus > 0        
 %         stats.Eb_hist(iter) = nan;

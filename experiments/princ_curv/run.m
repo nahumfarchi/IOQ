@@ -13,7 +13,7 @@ verts = m.V; faces = m.F; nv = m.nV; ne = m.nE; nf = m.nF;
 
 % Constraints
 [V, D] = SHAPEOP.shape_operator_R(mm);
-inds = find(D > 0.5);
+inds = find(D > 0.2);
 % In 3d coordinates
 c3d = [inds, V(inds, :)];
 % In angles with respect to the local frames
@@ -21,6 +21,9 @@ clangles = [inds, vecs3d_to_langles(m, inds, V(inds, :))];
 
 check_norm('langles_to_vecs3d(m, clangles(:, 1), clangles(:, 2:end))', ...
     'c3d(:, 2:end)');
+
+[R, gamma_g] = create_constraints_mat(m, clangles(:, 1), clangles(:, 2), frame_diffs);
+R = R';
 
 %% run IOQ
 rng(SEED)
@@ -69,6 +72,14 @@ cfaces = c3d(:, 1);
 cvecs  = c3d(:, 2:end);
 [res_miq, elapsed_miq] = ...
     nrosy_mex(fp, cfaces, cvecs, DEGREE);
+
+%% Plot energies
+figure
+hold on
+plot(1:length(stats.Ea_hist), stats.Ea_hist)
+plot(1:length(stats.Ec_hist), stats.Ec_hist)
+plot(1:length(stats.Ehist),   stats.Ehist)
+legend('Ea', 'Ec', 'E')
 
 %% Compare hodge decomps
 % ioq
@@ -119,15 +130,13 @@ fprintf('tc\n-----\nE = %g\nEa = %g\nEc = %g\n\n', E2, Ea2, Ec2);
 fprintf('miq\n-----\nE = %g\nEa = %g\nEc = %g\n', E3, Ea3, Ec3);
 
 % tests
-[R, gamma_g] = create_constraints_mat(m, clangles(:, 1), clangles(:, 2), frame_diffs);
-R = R';
-check_norm('R''*x1', '(pi/2)*gamma - gamma_g', 'Log', -1);
-check_norm('R''*x2', '(pi/2)*gamma - gamma_g', 'Log', -1);
+check_norm('R''*x1', '(pi/2)*gamma1 - gamma_g', 'Log', -1);
+check_norm('R''*x2', '(pi/2)*gamma1 - gamma_g', 'Log', -1);
 
 %% Plot constraint paths
 
-[R, gamma_g] = create_constraints_mat(m, clangles(:, 1), clangles(:, 2), frame_diffs);
-R = R';
+%[R, gamma_g] = create_constraints_mat(m, clangles(:, 1), clangles(:, 2), frame_diffs);
+%R = R';
 paths = {};
 for i = 1:size(R, 2)
     paths{end+1} = find(R(:, i));
@@ -188,19 +197,10 @@ alpha4 = zeros(nv, 1); alpha4(res_miq.vert_sing(:, 1)) = DEGREE*res_miq.vert_sin
     'GPU', USE_GPU, ...
     'Iterations', 2000, ...
     'Constraints', clangles, ...
-    'alpha', alpha4);
+    'alpha', alpha4, ...
+    'GatherStats', false);
 gamma4 = out4.gamma;
-res_ioq4 = Mesh(verts, faces);
-res_ioq4.set_ffield(...
-                  DEGREE, ...
-                  local_frames, ...
-                  frame_diffs, ...
-                  out4.theta, ...
-                  out4.ffield, ...
-                  alpha4, ...
-                  beta4, ...
-                  norm(x4)^2, ...
-                  x4);
+res_ioq4 = out4.m;
               
 % Use miq a and c (hodge decomp)
 gamma5 = ( (R' * d1')*c3 + gamma_g + R'*d0*a3 ) * 2 / pi;
@@ -210,19 +210,10 @@ gamma5 = ( (R' * d1')*c3 + gamma_g + R'*d0*a3 ) * 2 / pi;
     'Iterations', 2000, ...
     'Constraints', clangles, ...
     'alpha', alpha4, ...
-    'gamma', gamma5);
+    'gamma', gamma5, ...
+    'GatherStats', false);
 gamma5 = out5.gamma;
-res_ioq5 = Mesh(verts, faces);
-res_ioq5.set_ffield(...
-                  DEGREE, ...
-                  local_frames, ...
-                  frame_diffs, ...
-                  out5.theta, ...
-                  out5.ffield, ...
-                  alpha5, ...
-                  beta5, ...
-                  norm(x5)^2, ...
-                  x5);
+res_ioq5 = out5.m;
               
 %%
 title4 = sprintf('ioq, E = %g, ns = %d', res_ioq.miq_energy, res_ioq.n_vert_sing);
@@ -238,8 +229,22 @@ subplot(133); res_ioq5.draw(plot_props{:}); title(title6); view(3)
 title7 = sprintf('miq, E = %g', res_miq.miq_energy);
 figure;
 subplot(121); res_miq.draw(plot_props{:}); title(title7); colorbar off
-%subplot(122); res_ioq4.draw(plot_props{:}); title(title5); colorbar off
-subplot(122); res_ioq5.draw(plot_props{:}); title(title6); colorbar off
+subplot(122); res_ioq4.draw(plot_props{:}); title(title5); colorbar off
+%subplot(122); res_ioq5.draw(plot_props{:}); title(title6); colorbar off
+
+%%
+PLOT_PROPS = {'FaceColor', 'w', 'PlotField', true, 'Constraints', c3d, 'EdgeColor', 'k'};
+figure
+res_ioq.draw(PLOT_PROPS{:});
+%%
+paths = {};
+for i = 1:size(R, 2)
+    paths{end+1} = find(R(:, i));
+end
+hold on; 
+res_ioq.labelFaces(cfaces);
+res_ioq.plotEdgePaths(paths, 'color', 'r'); 
+hold off;
 
 
 
