@@ -2134,10 +2134,10 @@ classdef Mesh < matlab.mixin.Copyable
             %hold off
         end
         
-        function plotEdgePaths(self, paths)
+        function plotEdgePaths(self, paths, varargin)
             colors = {'r', 'b', 'm', 'c', 'g', 'k'};
             EF = self.EFAdj;
-            
+            t = 0.1*self.avg_length;
             for i = 1:numel(paths)
                 %path = paths{i};
                 if i <= length(colors)
@@ -2152,17 +2152,20 @@ classdef Mesh < matlab.mixin.Copyable
                     eid = path(j);
                     f1 = EF(eid, 1);
                     f2 = EF(eid, 2);
-                    p1 = sum(self.V(self.F(f1, :), :), 1) ./ 3;
-                    p2 = sum(self.V(self.F(f2, :), :), 1) ./ 3;
+                    
+                    p1 = sum(self.V(self.F(f1, :), :), 1) ./ 3 + t*self.FNormals(f1,:);
+                    p2 = sum(self.V(self.F(f2, :), :), 1) ./ 3 + t*self.FNormals(f2,:);
                     %edge_sign = self.H(eid, i);
                     
-                    arrow(p1, p2, 'Length', 1, 'EdgeColor', myColor);
-                    p = (0.7*p1 + 0.3*p2);
-                    if edge_sign > 0
-                        text(p(1), p(2), p(3), 'pos', 'color', 'b');
-                    else
-                        text(p(1), p(2), p(3), 'neg', 'color', 'r');
-                    end
+                    %arrow(p1, p2, 'Length', 1, 'EdgeColor', myColor);
+                    line([p1(1); p2(1)], [p1(2); p2(2)], [p1(3); p2(3)], varargin{:});
+                    
+                    %p = (0.7*p1 + 0.3*p2);
+                    %if edge_sign > 0
+                    %    text(p(1), p(2), p(3), 'pos', 'color', 'b');
+                    %else
+                    %    text(p(1), p(2), p(3), 'neg', 'color', 'r');
+                    %end
                 end
             end
         end
