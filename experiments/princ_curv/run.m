@@ -73,6 +73,8 @@ cvecs  = c3d(:, 2:end);
 [res_miq, elapsed_miq] = ...
     nrosy_mex(fp, cfaces, cvecs, DEGREE);
 
+disp(['Emiq = ', num2str(res_miq.miq_energy)])
+
 %% Plot energies
 figure
 hold on
@@ -80,6 +82,7 @@ plot(1:length(stats.Ea_hist), stats.Ea_hist)
 plot(1:length(stats.Ec_hist), stats.Ec_hist)
 plot(1:length(stats.Ehist),   stats.Ehist)
 legend('Ea', 'Ec', 'E')
+title('IOQ energies')
 
 %% Compare hodge decomps
 % ioq
@@ -216,6 +219,10 @@ gamma5 = out5.gamma;
 res_ioq5 = out5.m;
               
 %%
+plot_props = {'FaceColor', 'flat', 'PlotField', true, 'PlotSing', true, ...
+    'nrosy_colors', {'w', 'w', 'w', 'w'}, 'Colorbar', false, ...
+    'Constraints', c3d, 'MarkerSize', 20};
+
 title4 = sprintf('ioq, E = %g, ns = %d', res_ioq.miq_energy, res_ioq.n_vert_sing);
 title5 = sprintf('ioq w/ miq vert sing, E = %g, ns = %d', res_ioq4.miq_energy, res_ioq4.n_vert_sing);
 title6 = {'ioq w/ miq vert and const sing', sprintf('E = %g, ns = %d', res_ioq5.miq_energy, res_ioq5.n_vert_sing)};

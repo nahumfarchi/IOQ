@@ -45,12 +45,14 @@ function [alpha, beta, connection, stats, out] = IOQ(verts, faces, varargin)
     addOptional(parser, 'JLFac', 24);
     addOptional(parser, 'Mesh', []);
     addOptional(parser, 'KernelEntry', 'reduce_cols');
- 	addOptional(parser, 'alpha', []);
+ 	addOptional(parser, 'init_alpha', []);
+    addOptional(parser, 'final_alpha', []);
     addOptional(parser, 'BetaMethod', 'round');
     addOptional(parser, 'BetaMax', 20);
     addOptional(parser, 'Constraints', []);
     addOptional(parser, 'Gamma', []);
     addOptional(parser, 'GatherStats', true);
+    addOptional(parser, 'ConstGamma', []);
 
     parse(parser, varargin{:});
     opt = parser.Results;
@@ -108,7 +110,7 @@ function [alpha, beta, connection, stats, out] = IOQ(verts, faces, varargin)
     genus = round(1 - sum(alpha_g) / (4*pi));
     xi = 2 - 2*genus;
     x0 = (2/pi)*alpha_g;
-    if isempty(opt.alpha)
+    if isempty(opt.init_alpha)
         %ns = round(abs(sum((x0)))); % = 4 xi  
         ns = abs(4 * xi);
 		alpha = zeros(nv, 1);
@@ -126,7 +128,7 @@ function [alpha, beta, connection, stats, out] = IOQ(verts, faces, varargin)
             stats.n_init_sing = length(inds);
         end
     else
-		alpha = opt.alpha;
+		alpha = opt.init_alpha;
 		assert(length(alpha) == nv)
     end
     if ~isempty(gd), wait(gd); end; stats.T_setup = toc;
@@ -207,11 +209,18 @@ function [alpha, beta, connection, stats, out] = IOQ(verts, faces, varargin)
     
     if verb, disp('Gridsearch...'); end
     tic
-    if approx
-    elseif has_constraints
-        alpha = gridsearch2(alpha);
+    if isempty(opt.final_alpha)
+        if approx
+        elseif has_constraints && ~isempty(opt.ConstGamma)
+            alpha = gridsearch2_const_gamma(alpha, opt.ConstGamma);
+        elseif has_constraints
+            alpha = gridsearch2(alpha);
+            %alpha = gridsearch(Lp, alpha, x0);
+        else
+            alpha = gridsearch(Lp, alpha, x0);
+        end
     else
-        alpha = gridsearch(Lp, alpha, x0);
+        alpha = opt.final_alpha;
     end
     if ~isempty(gd), wait(gd); end; stats.T_gridsearch = toc;
   
@@ -247,6 +256,8 @@ function [alpha, beta, connection, stats, out] = IOQ(verts, faces, varargin)
     if ~isempty(opt.Constraints)
         if ~isempty(opt.Gamma)
             gamma = opt.Gamma;
+        elseif ~isempty(opt.ConstGamma)
+            gamma = opt.ConstGamma;
         elseif genus > 0
             gamma = round( 2/pi * ( gamma_g + R'*d0*a + R'*B*b ) );
         else
@@ -461,13 +472,65 @@ function x = gridsearch2(alpha)
         x(i) = x(i) + 1;
         x(j) = x(j) - 1;
         b1 = b1 + 2*M1(:, i) - 2*M1(:, j);
-        b2 = b2 + 2*M2_tilde(:, i) - 2*M2_tilde(:, j);
+%         b2 = b2 + 2*M2_tilde(:, i) - 2*M2_tilde(:, j);
         
-%         a = FL \ ( (pi/2)*x - alpha_g );
-%         gamma = round( 2/pi * ( gamma_g + R'*d0*a ) );
-%         %y_tilde = gamma - (2/pi)*gamma_g+R'*d0*Lp*x0;
-%         y_tilde = gamma - (2/pi)*gamma_g+A2*x0;
-%         b2 = 2*A2'*(M2'*(A2*x-y_tilde));   
+        a = FL \ ( (pi/2)*x - alpha_g );
+        gamma = round( 2/pi * ( gamma_g + R'*d0*a ) );
+        %y_tilde = gamma - (2/pi)*gamma_g+R'*d0*Lp*x0;
+        y_tilde = gamma - (2/pi)*gamma_g+A2*x0;
+        b2 = 2*A2'*(M2'*(A2*x-y_tilde));   
+        
+        if abs(min_val(1)) < opt.Tol
+            disp('Minimization complete because optimality tolerance was reached.')
+            disp(['m : ', num2str(min_val)])
+            break
+        end
+    end
+end
+
+function x = gridsearch2_const_gamma(alpha, gamma)
+    x = alpha;
+    x0 = (2/pi)*alpha_g;
+    M1 = Lp;
+    b1 = 2*M1*(x-x0);
+    dm1 = diag(M1);
+    
+    M2 = inverse(R'*d1')'*(d1*d1')*inverse(R'*d1');
+    A2 = R'*d0*Lp;
+    M2_tilde = A2'*M2*A2;
+    dm2 = diag(M2_tilde);
+
+    a = FL \ ( (pi/2)*alpha - alpha_g );
+    %if ~exist('gamma', 'var')
+    %    gamma = round( 2/pi * ( gamma_g + R'*d0*a ) );
+    %end
+    %y_tilde = gamma - (2/pi)*gamma_g+R'*d0*Lp*x0;
+    y_tilde = gamma - (2/pi)*gamma_g+A2*x0;
+    b2 = 2*A2'*(M2'*(A2*x-y_tilde));   
+    
+    for iter = 1:opt.Iterations
+        if gather_stats
+            update_stats(iter, x, x0);
+        end
+        
+        if opt.Verbose && mod(iter, 10) == 0
+            fprintf('iter, m : %d, %g\n', iter, min_val);
+        end
+        
+        [min_val, i] = min(bsxfun(@plus, dm1+b1, (dm1-b1)' - 2*M1) + ...
+                           bsxfun(@plus, dm2+b2, (dm2-b2)' - 2*M2_tilde));
+        [min_val, j] = min(min_val);
+        i = i(j);
+        x(i) = x(i) + 1;
+        x(j) = x(j) - 1;
+        b1 = b1 + 2*M1(:, i) - 2*M1(:, j);
+%         b2 = b2 + 2*M2_tilde(:, i) - 2*M2_tilde(:, j);
+        
+        a = FL \ ( (pi/2)*x - alpha_g );
+        %gamma = round( 2/pi * ( gamma_g + R'*d0*a ) );
+        %y_tilde = gamma - (2/pi)*gamma_g+R'*d0*Lp*x0;
+        y_tilde = gamma - (2/pi)*gamma_g+A2*x0;
+        b2 = 2*A2'*(M2'*(A2*x-y_tilde));   
         
         if abs(min_val(1)) < opt.Tol
             disp('Minimization complete because optimality tolerance was reached.')
