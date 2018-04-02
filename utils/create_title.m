@@ -1,7 +1,7 @@
 function create_title(filename, str, font_size)
 
 if nargin < 3
-    font_size = 20;
+    font_size = 14;
 end
 
 figure
@@ -12,6 +12,10 @@ axis off
 set(gcf, 'WindowStyle', 'docked')
 set(gcf,'color','w');
 
-export_fig([filename '.pdf']);
+try
+    export_fig(filename);
+catch
+    export_fig([filename '.pdf']);
+end
 
 end

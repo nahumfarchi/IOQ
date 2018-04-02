@@ -1,4 +1,7 @@
 function cam = get_camera(ca, verbose)
+    if nargin < 1
+        ca = gca;
+    end
     if nargin < 2
         verbose = false;
     end

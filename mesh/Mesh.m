@@ -1231,6 +1231,11 @@ classdef Mesh < matlab.mixin.Copyable
                 cycles = self.cached_generator_cycles;
                 return;
             end
+            
+            if self.genus == 0
+                cycles = [];
+                return;
+            end
 
             if nnz(self.boundaryEdge) > 0
                 error('Assumes no boundaries!')
@@ -1383,6 +1388,10 @@ classdef Mesh < matlab.mixin.Copyable
         function H = get.H(self)
             if ~isempty(self.cached_H)
                 H = self.cached_H;
+                return;
+            end
+            if self.genus == 0
+                H = [];
                 return;
             end
 
@@ -1757,6 +1766,7 @@ classdef Mesh < matlab.mixin.Copyable
             addOptional(p, 'Colormap', []);
             addOptional(p, 'Camera', []);
             addOptional(p, 'Constraints', []);
+            addOptional(p, 'LineWidth', 0.5);
             
             parse(p, varargin{:});
             
@@ -1773,11 +1783,12 @@ classdef Mesh < matlab.mixin.Copyable
                 end
             end
             
-            if size(Func, 2) == 1
-                cw = 'CData';
-            elseif size(f, 2) == 3
-                cw = 'FaceVertexCData';
-            end
+            %if size(Func, 2) == 1
+            %    cw = 'CData';
+            %elseif size(f, 2) == 3
+            %    cw = 'FaceVertexCData';
+            %end
+            cw = 'FaceVertexCData';
             
             hold on
             
@@ -1823,9 +1834,10 @@ classdef Mesh < matlab.mixin.Copyable
                   'vertices', obj.V, ...
                   cw, Func, ...
                   'FaceColor', FaceColor, ...
-                  'EdgeColor', p.Results.EdgeColor, ...
                   'FaceAlpha', p.Results.FaceAlpha, ...
-                  'EdgeAlpha', p.Results.EdgeAlpha);
+                  'EdgeColor', p.Results.EdgeColor, ...
+                  'EdgeAlpha', p.Results.EdgeAlpha, ...
+                  'LineWidth', p.Results.LineWidth);
             if p.Results.Colorbar
                 colorbar
             end
@@ -1846,7 +1858,7 @@ classdef Mesh < matlab.mixin.Copyable
                 set_camera(gca, p.Results.Camera);
             end
             
-            camlight('headlight')
+            camlight
             lighting phong
             material dull
             
@@ -1857,6 +1869,7 @@ classdef Mesh < matlab.mixin.Copyable
             if p.Results.Dock
                 set(gcf, 'WindowStyle', 'docked');
             end
+            set(gcf,'color','w');
         end
         
         function drawFaceField(self, vectors, varargin)
