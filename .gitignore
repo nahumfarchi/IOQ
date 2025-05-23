@@ -4,7 +4,6 @@
 *.mexw64
 *.exp
 *.pdf
-*.png
 *.jpg
 *.ffield
 *.dmat
